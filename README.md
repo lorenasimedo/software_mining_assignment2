@@ -12,5 +12,5 @@ Group 1 students:
 
 ## How to run the Throws Kitchen Sink anti-pattern analysis
 
-Build and run the java file **ca.concordia.soen.ThrowsKitchenSinkFinder** passing the absolute path of the project that you want to analyse as an argument.
+Build and run the java file **ca.concordia.soen.Application** passing the absolute path of the project that you want to analyse as an argument.
 
