@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>ca.concordia.soen</groupId>
+  <artifactId>software_mining_assignment2</artifactId>
+  <version>1.0-SNAPSHOT</version>
+
+  <name>software_mining_assignment2</name>
+  <!-- ... -->
+  <properties>
+    <maven.compiler.source>1.5</maven.compiler.source> <!-- or whichever version you want to use -->
+    <maven.compiler.target>1.5</maven.compiler.target> <!-- or whichever version you want to use -->
+  </properties>
+  <!-- ... -->
+
+  <dependencies>
+    <dependency>
+      <groupId>org.eclipse.jdt</groupId>
+      <artifactId>org.eclipse.jdt.core</artifactId>
+      <version>3.32.0</version>
+    </dependency>
+  </dependencies>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <configuration>
+          <source>19</source>
+          <target>19</target>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>
