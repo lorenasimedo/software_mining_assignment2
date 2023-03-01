@@ -19,7 +19,7 @@ public class FileUtil {
 
         if (fileList != null) {
             for (File file : fileList) {
-                if (file.isFile()) {
+                if (file.isFile() && file.toString().endsWith(".java")) {
                     fileNames.add(file.getAbsolutePath());
                 } else if (file.isDirectory()) {
                     fileNames.addAll(getAllFileNames(file.getAbsolutePath()));
