@@ -25,9 +25,9 @@ public class ThrowsKitchenSinkVisitor extends ASTVisitor {
 
         if (thrownExceptions.size() >= exceptionsThreshold) {
             AntiPatternOccurrencesCount += 1;
-            int starLine = compilationUnit.getLineNumber(declaration.getStartPosition());
+            int startLine = compilationUnit.getLineNumber(declaration.getStartPosition());
             String functionName = declaration.getName().toString();
-            AntiPatternOccurrence ThrowsKitchenSinkOccurrence = new AntiPatternOccurrence(functionName, Integer.toString(starLine));
+            AntiPatternOccurrence ThrowsKitchenSinkOccurrence = new AntiPatternOccurrence(functionName, Integer.toString(startLine));
             ThrowsKitchenSinkOcurrencesList.add(ThrowsKitchenSinkOccurrence);
         }
         return false;
