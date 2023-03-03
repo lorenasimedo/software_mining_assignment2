@@ -22,8 +22,11 @@ public class Application {
         JsonObject AntiPatternsJson = new JsonObject();
 
         JsonObject ThrowsKitchenSinkJson = ThrowsKitchenSinkFinder.getThrowsKitchenSinkOccurrences(allFiles);
+        JsonObject ThrowsGenericJson = ThrowsGenericFinder.getThrowsGenericFinderOccurences(allFiles);
         //TODO: Add the other antipatterns here
+
         AntiPatternsJson.add("ThrowsKitchenSink", ThrowsKitchenSinkJson);
+        AntiPatternsJson.add("ThrowsGeneric", ThrowsGenericJson);
         FileUtil.writeJsonFile(AntiPatternsJson, "output",  projectName);
     }
 }
