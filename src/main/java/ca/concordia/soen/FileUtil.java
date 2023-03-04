@@ -55,7 +55,7 @@ public class FileUtil {
                 folder.mkdirs();
             }
 
-            FileWriter writer = new FileWriter(folder + "/" + filename +".json");
+            FileWriter writer = new FileWriter(filename + "/" + folder +".json");
             Gson gson = new GsonBuilder().setPrettyPrinting().create();
             gson.toJson(Json, writer);
             writer.close();
