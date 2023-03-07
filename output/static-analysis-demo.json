@@ -10,15 +10,15 @@
       },
       {
         "Function_name": "test2",
-        "Line_number": "18"
+        "Line_number": "23"
+      },
+      {
+        "Function_name": "test4",
+        "Line_number": "31"
       },
       {
         "Function_name": "test3",
-        "Line_number": "27"
-      },
-      {
-        "Function_name": "test3",
-        "Line_number": "28"
+        "Line_number": "35"
       }
     ],
     "Number_of_occurrences_in_the_project": 4

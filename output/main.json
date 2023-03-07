@@ -1,0 +1,84 @@
+{
+  "ThrowsKitchenSink": {
+    "/Users/tahminaakter/Desktop/fastjson/src/main/java/com/alibaba/fastjson/parser/deserializer/JavaBeanDeserializer.java": [
+      {
+        "Function_name": "createFactoryInstance",
+        "Line_number": "1366"
+      },
+      {
+        "Function_name": "createInstance",
+        "Line_number": "1373"
+      }
+    ],
+    "Number_of_occurrences_in_the_project": 2
+  },
+  "ThrowsGeneric": {
+    "/Users/tahminaakter/Desktop/fastjson/src/main/java/com/alibaba/fastjson/serializer/SerializeConfig.java": [
+      {
+        "Function_name": "createASMSerializer",
+        "Line_number": "89"
+      }
+    ],
+    "/Users/tahminaakter/Desktop/fastjson/src/main/java/com/alibaba/fastjson/serializer/ASMSerializerFactory.java": [
+      {
+        "Function_name": "createJavaBeanSerializer",
+        "Line_number": "106"
+      },
+      {
+        "Function_name": "generateWriteAsArray",
+        "Line_number": "417"
+      },
+      {
+        "Function_name": "generateWriteMethod",
+        "Line_number": "781"
+      }
+    ],
+    "/Users/tahminaakter/Desktop/fastjson/src/main/java/com/alibaba/fastjson/serializer/JavaBeanSerializer.java": [
+      {
+        "Function_name": "getFieldValues",
+        "Line_number": "721"
+      },
+      {
+        "Function_name": "getObjectFieldValues",
+        "Line_number": "731"
+      },
+      {
+        "Function_name": "getSize",
+        "Line_number": "747"
+      },
+      {
+        "Function_name": "getFieldNames",
+        "Line_number": "766"
+      },
+      {
+        "Function_name": "getFieldValuesMap",
+        "Line_number": "777"
+      }
+    ],
+    "/Users/tahminaakter/Desktop/fastjson/src/main/java/com/alibaba/fastjson/serializer/FieldSerializer.java": [
+      {
+        "Function_name": "writeValue",
+        "Line_number": "167"
+      }
+    ],
+    "/Users/tahminaakter/Desktop/fastjson/src/main/java/com/alibaba/fastjson/parser/deserializer/ThrowableDeserializer.java": [
+      {
+        "Function_name": "createException",
+        "Line_number": "164"
+      }
+    ],
+    "/Users/tahminaakter/Desktop/fastjson/src/main/java/com/alibaba/fastjson/parser/deserializer/ASMDeserializerFactory.java": [
+      {
+        "Function_name": "createJavaBeanDeserializer",
+        "Line_number": "56"
+      }
+    ],
+    "/Users/tahminaakter/Desktop/fastjson/src/main/java/com/alibaba/fastjson/support/spring/FastJsonJsonView.java": [
+      {
+        "Function_name": "renderMergedOutputModel",
+        "Line_number": "289"
+      }
+    ],
+    "Number_of_occurrences_in_the_project": 13
+  }
+}
