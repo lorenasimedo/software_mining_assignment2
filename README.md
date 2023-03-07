@@ -10,7 +10,8 @@ Group 1 students:
 - Throws kitchen sink
 - Destructive wrapping
 
-## How to run the Throws Kitchen Sink anti-pattern analysis
+## How to run the anti-patterns analysis
 
 Build and run the java file **ca.concordia.soen.Application** passing the absolute path of the project that you want to analyse as an argument.
+A json file containing all the generated data will be created in the output folder. It will have the same name as the last folder of the argument you passed (which is supposed to be the project name)
 
