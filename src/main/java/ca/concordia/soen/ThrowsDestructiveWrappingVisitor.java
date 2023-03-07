@@ -10,7 +10,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ThrowsDestructiveWrappingVisitor extends ASTVisitor {
-	static int exceptionsThreshold = 3;
 
 	private final CompilationUnit compilationUnit;
 	int AntiPatternOccurrencesCount = 0;
