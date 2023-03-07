@@ -35,7 +35,7 @@ public class ThrowsDestructiveWrappingVisitor extends ASTVisitor {
 
 							public boolean visit(ThrowStatement node) {
 								AntiPatternOccurrencesCount += 1;
-								int startLine = compilationUnit.getLineNumber(method.getStartPosition());
+								int startLine = compilationUnit.getLineNumber(node.getStartPosition());
 								String functionName = method.getName().toString();
 								AntiPatternOccurrence ThrowsDestructiveWrappingOccurrence = new AntiPatternOccurrence(functionName, Integer.toString(startLine));
 								ThrowsDestructiveWrappingOcurrencesList.add(ThrowsDestructiveWrappingOccurrence);
