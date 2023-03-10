@@ -2,6 +2,7 @@ package ca.concordia.soen;
 
 import com.google.gson.JsonObject;
 
+import java.io.File;
 import java.util.List;
 
 public class Application {
@@ -12,7 +13,8 @@ public class Application {
     public static void main(String[] args) {
 
         String folderName = args[0];
-        String[] path = folderName.split("/");
+        String splitter = File.separator.replace("\\","\\\\");
+        String[] path = folderName.split(splitter);
         String projectName = path[path.length - 1];
 
         List<String> allFiles = FileUtil.getAllFileNames(folderName);
