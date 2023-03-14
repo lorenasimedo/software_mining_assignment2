@@ -24,6 +24,11 @@ public class Application {
         //TODO: Add the other antipatterns here
 
         AntiPatternsJson.add("ThrowsKitchenSink", ThrowsKitchenSinkJson);
-        FileUtil.writeJsonFile(AntiPatternsJson, "output",  projectName);
+
+        JsonObject ThrowsDestructiveWrappingJson = ThrowsDestructiveWrappingFinder.getThrowsDestructiveWrappingOccurrences(allFiles);
+        //TODO: Add the other antipatterns here
+        AntiPatternsJson.add("ThrowsDestructiveWrapping", ThrowsDestructiveWrappingJson);
+        
+        FileUtil.writeJsonFile(AntiPatternsJson, output_folder,  projectName);
     }
 }
