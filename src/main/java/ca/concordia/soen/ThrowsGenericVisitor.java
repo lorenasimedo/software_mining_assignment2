@@ -17,11 +17,10 @@ public class ThrowsGenericVisitor  extends ASTVisitor {
     @Override
     public boolean visit(MethodDeclaration node) {
         List<Type> thrownExceptions = node.thrownExceptionTypes();
-        CompilationUnit cu = compilationUnit;
         Block body = node.getBody();
         if(thrownExceptions.size() == 1){
             if (thrownExceptions.get(0) instanceof SimpleType && thrownExceptions.get(0).toString().equals("Exception")) {
-                antiPatternDetect(node, cu, thrownExceptions.get(0).getStartPosition());
+                antiPatternDetect(node, compilationUnit, thrownExceptions.get(0).getStartPosition());
             }
         }
         else if (thrownExceptions.size() == 0){
@@ -30,7 +29,7 @@ public class ThrowsGenericVisitor  extends ASTVisitor {
                     if (statement.getNodeType() == ASTNode.TRY_STATEMENT) {
                         TryStatement tryStatement = (TryStatement) statement;
                         List<CatchClause> catchClauses = tryStatement.catchClauses();
-                        checkCatchClausesForThrowsGeneric(catchClauses, node, cu);
+                        checkCatchClausesForThrowsGeneric(catchClauses, node, compilationUnit);
                     }
                 }
             }
