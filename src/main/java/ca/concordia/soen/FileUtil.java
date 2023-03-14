@@ -49,13 +49,12 @@ public class FileUtil {
     public static void writeJsonFile(JsonObject Json, String folder_name, String filename){
 
         try {
-
             File folder = new File(folder_name);
             if (!folder.exists()) {
                 folder.mkdirs();
             }
 
-            FileWriter writer = new FileWriter(folder + "/" + filename +".json");
+            FileWriter writer = new FileWriter(folder + File.separator + filename +".json");
             Gson gson = new GsonBuilder().setPrettyPrinting().create();
             gson.toJson(Json, writer);
             writer.close();

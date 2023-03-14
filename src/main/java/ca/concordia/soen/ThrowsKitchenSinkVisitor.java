@@ -1,8 +1,7 @@
 package ca.concordia.soen;
 
-import org.eclipse.jdt.core.dom.ASTVisitor;
-import org.eclipse.jdt.core.dom.MethodDeclaration;
-import org.eclipse.jdt.core.dom.CompilationUnit;
+import org.eclipse.jdt.core.dom.*;
+
 
 import java.util.ArrayList;
 import java.util.List;
@@ -23,13 +22,41 @@ public class ThrowsKitchenSinkVisitor extends ASTVisitor {
 
         List thrownExceptions = declaration.thrownExceptionTypes();
 
+        // Handling throws in method declaration
         if (thrownExceptions.size() >= exceptionsThreshold) {
-            AntiPatternOccurrencesCount += 1;
-            int startLine = compilationUnit.getLineNumber(declaration.getStartPosition());
-            String functionName = declaration.getName().toString();
-            AntiPatternOccurrence ThrowsKitchenSinkOccurrence = new AntiPatternOccurrence(functionName, Integer.toString(startLine));
-            ThrowsKitchenSinkOcurrencesList.add(ThrowsKitchenSinkOccurrence);
+            addNewAntiPatternOccurrence(declaration);
+            return true;
         }
-        return false;
+
+        // Handling throws in the code
+        Block body = declaration.getBody();
+        List<Type> exceptionTypesList = new ArrayList<>();
+        if (body != null) {
+            for (Object statement : body.statements()) {
+                if (statement instanceof ThrowStatement throwStatement) {
+                    Expression expression = throwStatement.getExpression();
+                    if (expression instanceof ClassInstanceCreation exception) {
+                        Type exceptionType = exception.getType();
+                        if (!exceptionTypesList.contains(exceptionType)) {
+                            exceptionTypesList.add(exceptionType);
+                        }
+                    }
+                }
+            }
+        }
+        if (exceptionTypesList.size() >= exceptionsThreshold){
+            addNewAntiPatternOccurrence(declaration);
+            return true;
+        }
+        return true;
+    }
+
+
+    public void addNewAntiPatternOccurrence(MethodDeclaration declaration){
+        AntiPatternOccurrencesCount += 1;
+        int startLine = compilationUnit.getLineNumber(declaration.getStartPosition());
+        String functionName = declaration.getName().toString();
+        AntiPatternOccurrence ThrowsKitchenSinkOccurrence = new AntiPatternOccurrence(functionName, Integer.toString(startLine));
+        ThrowsKitchenSinkOcurrencesList.add(ThrowsKitchenSinkOccurrence);
     }
 }
