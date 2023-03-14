@@ -16,42 +16,42 @@ public class ThrowsGenericVisitor  extends ASTVisitor {
 
     @Override
     public boolean visit(MethodDeclaration node) {
-        List<Type> thrownExceptions = node.thrownExceptionTypes();
+        List<Type> methodDeclarationThrownExceptions = node.thrownExceptionTypes();
         Block body = node.getBody();
-        if(thrownExceptions.size() == 1){
-            if (thrownExceptions.get(0) instanceof SimpleType && thrownExceptions.get(0).toString().equals("Exception")) {
-                antiPatternDetect(node, compilationUnit, thrownExceptions.get(0).getStartPosition());
+        if(methodDeclarationThrownExceptions.size() == 1){
+            if (methodDeclarationThrownExceptions.get(0) instanceof SimpleType && methodDeclarationThrownExceptions.get(0).toString().equals("Exception")) {
+                antiPatternDetect(node, methodDeclarationThrownExceptions.get(0).getStartPosition());
             }
         }
-        else if (thrownExceptions.size() == 0){
+        else if (methodDeclarationThrownExceptions.size() == 0){
             if(hasTryCatch(body)){
                 for(Statement statement: (List<Statement>) body.statements()){
                     if (statement.getNodeType() == ASTNode.TRY_STATEMENT) {
                         TryStatement tryStatement = (TryStatement) statement;
                         List<CatchClause> catchClauses = tryStatement.catchClauses();
-                        checkCatchClausesForThrowsGeneric(catchClauses, node, compilationUnit);
+                        checkCatchClausesForThrowsGeneric(catchClauses, node);
                     }
                 }
             }
         }
         return true;
     }
-    private void checkCatchClausesForThrowsGeneric(List<CatchClause> catchClauses, MethodDeclaration node, CompilationUnit cu) {
+    private void checkCatchClausesForThrowsGeneric(List<CatchClause> catchClauses, MethodDeclaration node) {
         for (CatchClause catchClause : catchClauses) {
             if ("Exception".equals(catchClause.getException().getType().toString())) {
                 List<Statement> catchStatements = catchClause.getBody().statements();
-                processCatchStatements(catchStatements, catchClause.getException().getName(), node, cu);
+                processCatchStatements(catchStatements, catchClause.getException().getName(), node);
             }
         }
     }
 
-    public void processCatchStatements(List<Statement> catchStatements, SimpleName exceptionName, MethodDeclaration node, CompilationUnit cu) {
+    public void processCatchStatements(List<Statement> catchStatements, SimpleName exceptionName, MethodDeclaration node) {
         try {
             for (Statement catchStatement : catchStatements) {
                 if (catchStatement instanceof ThrowStatement) {
                     Expression exception = ((ThrowStatement) catchStatement).getExpression();
                     if (exception instanceof SimpleName && ((SimpleName) exception).getIdentifier().equals(exceptionName.getIdentifier())) {
-                        antiPatternDetect(node, cu, catchStatement.getStartPosition());
+                        antiPatternDetect(node, catchStatement.getStartPosition());
                     }
                 }
             }
@@ -59,8 +59,8 @@ public class ThrowsGenericVisitor  extends ASTVisitor {
             System.out.println(e);
         }
     }
-    private void antiPatternDetect(MethodDeclaration node, CompilationUnit cu, int startPosition) {
-        int startLine = cu.getLineNumber(startPosition);
+    private void antiPatternDetect(MethodDeclaration node, int startPosition) {
+        int startLine = compilationUnit.getLineNumber(startPosition);
         AntiPatternOccurrencesCount +=1;
         AntiPatternOccurrence ThrowsGenericOccurrence = new AntiPatternOccurrence(node.getName().toString(), Integer.toString(startLine));
         ThrowsGenericOcurrencesList.add(ThrowsGenericOccurrence);

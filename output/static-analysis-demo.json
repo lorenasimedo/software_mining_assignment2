@@ -13,14 +13,10 @@
         "Line_number": "23"
       },
       {
-        "Function_name": "test4",
-        "Line_number": "34"
-      },
-      {
         "Function_name": "test7",
         "Line_number": "37"
       }
     ],
-    "Number_of_occurrences_in_the_project": 4
+    "Number_of_occurrences_in_the_project": 3
   }
 }
