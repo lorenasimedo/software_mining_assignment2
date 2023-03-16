@@ -9,9 +9,6 @@ import org.eclipse.jdt.core.dom.CompilationUnit;
 import org.eclipse.jdt.core.dom.Expression;
 import org.eclipse.jdt.core.dom.ClassInstanceCreation;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class ThrowsDestructiveWrappingVisitor extends AntiPatternVisitor {
 
 
@@ -33,8 +30,6 @@ public class ThrowsDestructiveWrappingVisitor extends AntiPatternVisitor {
 						SingleVariableDeclaration exception = clause.getException();
 						
 						String exceptionType = exception.getType().toString();
-
-						System.out.println("The exception thrown in the Catch: " + exceptionType);
 						
 						clause.getBody().accept(new ASTVisitor() {
 
@@ -44,7 +39,6 @@ public class ThrowsDestructiveWrappingVisitor extends AntiPatternVisitor {
 								if (expression instanceof ClassInstanceCreation) {
 						            ClassInstanceCreation classInstanceCreation;
 									classInstanceCreation = (ClassInstanceCreation) expression;
-									System.out.println("Thrown exception type: " + classInstanceCreation.getType().toString());
 						            
 
 						            if (!exceptionType.equals(classInstanceCreation.getType().toString())){
@@ -55,7 +49,6 @@ public class ThrowsDestructiveWrappingVisitor extends AntiPatternVisitor {
 										antiPatternOcurrencesList.add(ThrowsDestructiveWrappingOccurrence);
 						            }
 						        }
-								System.out.println("Caught a throw statement: " + node.getExpression().toString());
 						        
 								
 								return super.visit(node);
