@@ -67,9 +67,11 @@ public class ThrowsGenericVisitor  extends ASTVisitor {
     }
 
     public static boolean hasTryCatch(Block block) {
-        for (Object statement : block.statements()) {
-            if (statement instanceof TryStatement) {
-                return true;
+        if (block != null){
+            for (Object statement : block.statements()) {
+                if (statement instanceof TryStatement) {
+                    return true;
+                }
             }
         }
         return false;
