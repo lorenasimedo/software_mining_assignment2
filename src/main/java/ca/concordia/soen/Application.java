@@ -21,13 +21,13 @@ public class Application {
         JsonObject AntiPatternsJson = new JsonObject();
 
         JsonObject ThrowsKitchenSinkJson = ThrowsKitchenSinkFinder.getThrowsKitchenSinkOccurrences(allFiles);
-        //TODO: Add the other antipatterns here
-
         AntiPatternsJson.add("ThrowsKitchenSink", ThrowsKitchenSinkJson);
 
         JsonObject ThrowsDestructiveWrappingJson = ThrowsDestructiveWrappingFinder.getThrowsDestructiveWrappingOccurrences(allFiles);
-        //TODO: Add the other antipatterns here
         AntiPatternsJson.add("ThrowsDestructiveWrapping", ThrowsDestructiveWrappingJson);
+
+        JsonObject ThrowsGenericJson = ThrowsGenericFinder.getThrowsGenericFinderOccurences(allFiles);
+        AntiPatternsJson.add("ThrowsGeneric", ThrowsGenericJson);
         
         FileUtil.writeJsonFile(AntiPatternsJson, output_folder,  projectName);
     }
