@@ -9,17 +9,11 @@ import org.eclipse.jdt.core.dom.CompilationUnit;
 import org.eclipse.jdt.core.dom.Expression;
 import org.eclipse.jdt.core.dom.ClassInstanceCreation;
 
-import java.util.ArrayList;
-import java.util.List;
+public class ThrowsDestructiveWrappingVisitor extends AntiPatternVisitor {
 
-public class ThrowsDestructiveWrappingVisitor extends ASTVisitor {
-
-	private final CompilationUnit compilationUnit;
-	int AntiPatternOccurrencesCount = 0;
-	List<AntiPatternOccurrence> ThrowsDestructiveWrappingOcurrencesList = new ArrayList<>();
 
 	public ThrowsDestructiveWrappingVisitor(CompilationUnit compilationUnit) {
-		this.compilationUnit = compilationUnit;
+		super(compilationUnit);
 	}
 
 	@Override
@@ -31,13 +25,11 @@ public class ThrowsDestructiveWrappingVisitor extends ASTVisitor {
 				@Override
 				public boolean visit(CatchClause clause) {
 
-					if (clause.getBody().statements().isEmpty() == false) {
+					if (!clause.getBody().statements().isEmpty()) {
 
 						SingleVariableDeclaration exception = clause.getException();
 						
 						String exceptionType = exception.getType().toString();
-
-						System.out.println("The exception thrown in the Catch: " + exceptionType);
 						
 						clause.getBody().accept(new ASTVisitor() {
 
@@ -45,19 +37,18 @@ public class ThrowsDestructiveWrappingVisitor extends ASTVisitor {
 
 								Expression expression = node.getExpression();
 								if (expression instanceof ClassInstanceCreation) {
-						            ClassInstanceCreation classInstanceCreation = (ClassInstanceCreation) expression;
-						            System.out.println("Thrown exception type: " + classInstanceCreation.getType().toString());
+						            ClassInstanceCreation classInstanceCreation;
+									classInstanceCreation = (ClassInstanceCreation) expression;
 						            
 
-						            if (exceptionType != classInstanceCreation.getType().toString()){
-										AntiPatternOccurrencesCount += 1;
+						            if (!exceptionType.equals(classInstanceCreation.getType().toString())){
+										antiPatternOccurrencesCount += 1;
 										int startLine = compilationUnit.getLineNumber(node.getStartPosition());
 										String functionName = method.getName().toString();
 										AntiPatternOccurrence ThrowsDestructiveWrappingOccurrence = new AntiPatternOccurrence(functionName, Integer.toString(startLine));
-										ThrowsDestructiveWrappingOcurrencesList.add(ThrowsDestructiveWrappingOccurrence);
+										antiPatternOcurrencesList.add(ThrowsDestructiveWrappingOccurrence);
 						            }
 						        }
-								System.out.println("Caught a throw statement: " + node.getExpression().toString());
 						        
 								
 								return super.visit(node);

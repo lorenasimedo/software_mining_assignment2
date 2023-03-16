@@ -20,14 +20,16 @@ public class Application {
         List<String> allFiles = FileUtil.getAllFileNames(folderName);
         JsonObject AntiPatternsJson = new JsonObject();
 
-        JsonObject ThrowsKitchenSinkJson = ThrowsKitchenSinkFinder.getThrowsKitchenSinkOccurrences(allFiles);
-        //TODO: Add the other antipatterns here
-
+        JsonObject ThrowsKitchenSinkJson = AntiPatternFinder.getAntiPatternOccurrences("ThrowsKitchenSink", allFiles);
         AntiPatternsJson.add("ThrowsKitchenSink", ThrowsKitchenSinkJson);
 
-        JsonObject ThrowsDestructiveWrappingJson = ThrowsDestructiveWrappingFinder.getThrowsDestructiveWrappingOccurrences(allFiles);
-        //TODO: Add the other antipatterns here
+
+        JsonObject ThrowsDestructiveWrappingJson = AntiPatternFinder.getAntiPatternOccurrences("ThrowsDestructiveWrapping", allFiles);
         AntiPatternsJson.add("ThrowsDestructiveWrapping", ThrowsDestructiveWrappingJson);
+
+        JsonObject ThrowsGenericJson = AntiPatternFinder.getAntiPatternOccurrences("ThrowsGeneric", allFiles);
+        AntiPatternsJson.add("ThrowsGeneric", ThrowsGenericJson);
+
         
         FileUtil.writeJsonFile(AntiPatternsJson, output_folder,  projectName);
     }
