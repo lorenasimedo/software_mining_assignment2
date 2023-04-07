@@ -24,8 +24,8 @@ public class Application {
         AntiPatternsJson.add("ThrowsKitchenSink", ThrowsKitchenSinkJson);
 
 
-        JsonObject ThrowsDestructiveWrappingJson = AntiPatternFinder.getAntiPatternOccurrences("ThrowsDestructiveWrapping", allFiles);
-        AntiPatternsJson.add("ThrowsDestructiveWrapping", ThrowsDestructiveWrappingJson);
+        JsonObject DestructiveWrappingJson = AntiPatternFinder.getAntiPatternOccurrences("DestructiveWrapping", allFiles);
+        AntiPatternsJson.add("DestructiveWrapping", DestructiveWrappingJson);
 
         JsonObject ThrowsGenericJson = AntiPatternFinder.getAntiPatternOccurrences("ThrowsGeneric", allFiles);
         AntiPatternsJson.add("ThrowsGeneric", ThrowsGenericJson);

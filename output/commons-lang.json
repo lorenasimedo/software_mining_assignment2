@@ -108,7 +108,7 @@
     ],
     "Number_of_occurrences_in_the_project": 23
   },
-  "ThrowsDestructiveWrapping": {
+  "DestructiveWrapping": {
     "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-lang/src/test/java/org/apache/commons/lang3/function/MethodInvokersFailableFunctionTest.java": [
       {
         "Function_name": "testFindAndInvoke",

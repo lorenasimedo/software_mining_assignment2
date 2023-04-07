@@ -2,7 +2,7 @@
   "ThrowsKitchenSink": {
     "Number_of_occurrences_in_the_project": 0
   },
-  "ThrowsDestructiveWrapping": {
+  "DestructiveWrapping": {
     "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/jsoup/src/test/java/org/jsoup/integration/ParseTest.java": [
       {
         "Function_name": "getFile",

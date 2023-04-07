@@ -9,10 +9,10 @@ import org.eclipse.jdt.core.dom.CompilationUnit;
 import org.eclipse.jdt.core.dom.Expression;
 import org.eclipse.jdt.core.dom.ClassInstanceCreation;
 
-public class ThrowsDestructiveWrappingVisitor extends AntiPatternVisitor {
+public class DestructiveWrappingVisitor extends AntiPatternVisitor {
 
 
-	public ThrowsDestructiveWrappingVisitor(CompilationUnit compilationUnit) {
+	public DestructiveWrappingVisitor(CompilationUnit compilationUnit) {
 		super(compilationUnit);
 	}
 
@@ -45,8 +45,8 @@ public class ThrowsDestructiveWrappingVisitor extends AntiPatternVisitor {
 										antiPatternOccurrencesCount += 1;
 										int startLine = compilationUnit.getLineNumber(node.getStartPosition());
 										String functionName = method.getName().toString();
-										AntiPatternOccurrence ThrowsDestructiveWrappingOccurrence = new AntiPatternOccurrence(functionName, Integer.toString(startLine));
-										antiPatternOcurrencesList.add(ThrowsDestructiveWrappingOccurrence);
+										AntiPatternOccurrence DestructiveWrappingOccurrence = new AntiPatternOccurrence(functionName, Integer.toString(startLine));
+										antiPatternOcurrencesList.add(DestructiveWrappingOccurrence);
 						            }
 						        }
 						        

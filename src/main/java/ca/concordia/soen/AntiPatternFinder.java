@@ -31,15 +31,14 @@ class AntiPatternFinder {
       CompilationUnit compilationUnit = (CompilationUnit) parser.createAST(null);
 
       AntiPatternVisitor visitor;
-      if (antiPatternType.equals("ThrowsKitchenSink")) {
-        visitor = new ThrowsKitchenSinkVisitor(compilationUnit);
-      } else if (antiPatternType.equals("ThrowsGeneric")) {
-        visitor = new ThrowsGenericVisitor(compilationUnit);
-      } else if (antiPatternType.equals("ThrowsDestructiveWrapping")) {
-        visitor = new ThrowsDestructiveWrappingVisitor(compilationUnit);
-      } else{
-        System.out.println("The anti-pattern" + antiPatternType + " is not supported by the current implementation");
-        return antiPatternOccurrencesJson;
+      switch (antiPatternType) {
+        case "ThrowsKitchenSink" -> visitor = new ThrowsKitchenSinkVisitor(compilationUnit);
+        case "ThrowsGeneric" -> visitor = new ThrowsGenericVisitor(compilationUnit);
+        case "DestructiveWrapping" -> visitor = new DestructiveWrappingVisitor(compilationUnit);
+        default -> {
+          System.out.println("The anti-pattern" + antiPatternType + " is not supported by the current implementation");
+          return antiPatternOccurrencesJson;
+        }
       }
       compilationUnit.accept(visitor);
 

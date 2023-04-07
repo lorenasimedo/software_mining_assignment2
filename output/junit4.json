@@ -14,7 +14,7 @@
     ],
     "Number_of_occurrences_in_the_project": 2
   },
-  "ThrowsDestructiveWrapping": {
+  "DestructiveWrapping": {
     "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/test/java/junit/tests/SampleJUnit3Tests.java": [
       {
         "Function_name": "doThrowExceptionWithCause",
