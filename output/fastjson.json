@@ -1,22 +1,16 @@
 {
   "ThrowsKitchenSink": {
-    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/fastjson/src/main/java/com/alibaba/fastjson/parser/deserializer/FieldDeserializer.java": [
-      {
-        "Function_name": "degradeValueAssignment",
-        "Line_number": "221"
-      }
-    ],
     "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/fastjson/src/main/java/com/alibaba/fastjson/parser/deserializer/JavaBeanDeserializer.java": [
       {
         "Function_name": "createFactoryInstance",
-        "Line_number": "1370"
+        "Line_number": "1366"
       },
       {
         "Function_name": "createInstance",
-        "Line_number": "1377"
+        "Line_number": "1373"
       }
     ],
-    "Number_of_occurrences_in_the_project": 3
+    "Number_of_occurrences_in_the_project": 2
   },
   "ThrowsDestructiveWrapping": {
     "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/fastjson/src/test/java/com/alibaba/json/test/benchmark/BenchmarkExecutor.java": [
@@ -189,26 +183,36 @@
         "Line_number": "268"
       }
     ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/fastjson/src/main/java/com/alibaba/fastjson/serializer/ClobSerializer.java": [
+      {
+        "Function_name": "write",
+        "Line_number": "37"
+      },
+      {
+        "Function_name": "write",
+        "Line_number": "44"
+      }
+    ],
     "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/fastjson/src/main/java/com/alibaba/fastjson/serializer/JavaBeanSerializer.java": [
       {
         "Function_name": "write",
-        "Line_number": "544"
+        "Line_number": "541"
       },
       {
         "Function_name": "getFieldValue",
-        "Line_number": "603"
+        "Line_number": "600"
       },
       {
         "Function_name": "getFieldValue",
-        "Line_number": "605"
+        "Line_number": "602"
       },
       {
         "Function_name": "getFieldValue",
-        "Line_number": "621"
+        "Line_number": "618"
       },
       {
         "Function_name": "getFieldValue",
-        "Line_number": "623"
+        "Line_number": "620"
       }
     ],
     "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/fastjson/src/main/java/com/alibaba/fastjson/serializer/BigDecimalCodec.java": [
@@ -279,16 +283,6 @@
         "Line_number": "55"
       }
     ],
-    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/fastjson/src/main/java/com/alibaba/fastjson/serializer/ClobSeriliazer.java": [
-      {
-        "Function_name": "write",
-        "Line_number": "37"
-      },
-      {
-        "Function_name": "write",
-        "Line_number": "44"
-      }
-    ],
     "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/fastjson/src/main/java/com/alibaba/fastjson/serializer/IntegerCodec.java": [
       {
         "Function_name": "deserialze",
@@ -308,55 +302,65 @@
     "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/fastjson/src/main/java/com/alibaba/fastjson/util/TypeUtils.java": [
       {
         "Function_name": "castToDate",
-        "Line_number": "521"
+        "Line_number": "511"
       },
       {
         "Function_name": "castToDate",
-        "Line_number": "546"
+        "Line_number": "536"
       },
       {
         "Function_name": "castToDate",
-        "Line_number": "564"
+        "Line_number": "554"
       },
       {
         "Function_name": "cast",
-        "Line_number": "1202"
+        "Line_number": "1218"
       },
       {
         "Function_name": "castToEnum",
-        "Line_number": "1296"
+        "Line_number": "1312"
       },
       {
         "Function_name": "castToJavaBean",
-        "Line_number": "1557"
+        "Line_number": "1569"
+      },
+      {
+        "Function_name": "createSet",
+        "Line_number": "2733"
       },
       {
         "Function_name": "createCollection",
-        "Line_number": "2704"
+        "Line_number": "2769"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/fastjson/src/main/java/com/alibaba/fastjson/util/ModuleUtil.java": [
+      {
+        "Function_name": "callWhenHasJavaSql",
+        "Line_number": "22"
       }
     ],
     "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/fastjson/src/main/java/com/alibaba/fastjson/JSON.java": [
       {
         "Function_name": "parseObject",
-        "Line_number": "262"
+        "Line_number": "260"
       },
       {
         "Function_name": "writeJSONString",
-        "Line_number": "1089"
+        "Line_number": "1104"
       },
       {
         "Function_name": "toJSON",
-        "Line_number": "1211"
+        "Line_number": "1226"
       }
     ],
     "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/fastjson/src/main/java/com/alibaba/fastjson/JSONValidator.java": [
       {
         "Function_name": "next",
-        "Line_number": "456"
+        "Line_number": "458"
       },
       {
         "Function_name": "next",
-        "Line_number": "582"
+        "Line_number": "586"
       }
     ],
     "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/fastjson/src/main/java/com/alibaba/fastjson/parser/deserializer/ThrowableDeserializer.java": [
@@ -368,13 +372,13 @@
     "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/fastjson/src/main/java/com/alibaba/fastjson/parser/deserializer/FieldDeserializer.java": [
       {
         "Function_name": "setValue",
-        "Line_number": "217"
+        "Line_number": "219"
       }
     ],
     "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/fastjson/src/main/java/com/alibaba/fastjson/parser/deserializer/EnumDeserializer.java": [
       {
         "Function_name": "deserialze",
-        "Line_number": "171"
+        "Line_number": "174"
       }
     ],
     "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/fastjson/src/main/java/com/alibaba/fastjson/parser/deserializer/NumberDeserializer.java": [
@@ -394,61 +398,61 @@
     "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/fastjson/src/main/java/com/alibaba/fastjson/parser/deserializer/JavaBeanDeserializer.java": [
       {
         "Function_name": "createInstance",
-        "Line_number": "271"
+        "Line_number": "267"
       },
       {
         "Function_name": "createInstance",
-        "Line_number": "281"
+        "Line_number": "277"
       },
       {
         "Function_name": "deserialze",
-        "Line_number": "492"
+        "Line_number": "488"
       },
       {
         "Function_name": "deserialze",
-        "Line_number": "1046"
+        "Line_number": "1042"
       },
       {
         "Function_name": "deserialze",
-        "Line_number": "1062"
+        "Line_number": "1058"
       },
       {
         "Function_name": "deserialze",
-        "Line_number": "1081"
+        "Line_number": "1077"
       },
       {
         "Function_name": "parseField",
-        "Line_number": "1217"
+        "Line_number": "1213"
       },
       {
         "Function_name": "parseField",
-        "Line_number": "1235"
+        "Line_number": "1231"
       },
       {
         "Function_name": "parseField",
-        "Line_number": "1245"
+        "Line_number": "1241"
       },
       {
         "Function_name": "createInstance",
-        "Line_number": "1502"
+        "Line_number": "1498"
       },
       {
         "Function_name": "createInstance",
-        "Line_number": "1592"
+        "Line_number": "1588"
       },
       {
         "Function_name": "createInstance",
-        "Line_number": "1599"
+        "Line_number": "1595"
       },
       {
         "Function_name": "createInstance",
-        "Line_number": "1607"
+        "Line_number": "1603"
       }
     ],
     "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/fastjson/src/main/java/com/alibaba/fastjson/parser/deserializer/MapDeserializer.java": [
       {
         "Function_name": "createMap",
-        "Line_number": "420"
+        "Line_number": "427"
       }
     ],
     "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/fastjson/src/main/java/com/alibaba/fastjson/parser/deserializer/EnumCreatorDeserializer.java": [
@@ -480,17 +484,17 @@
     "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/fastjson/src/main/java/com/alibaba/fastjson/parser/JSONLexerBase.java": [
       {
         "Function_name": "newCollectionByType",
-        "Line_number": "1662"
+        "Line_number": "1664"
       },
       {
         "Function_name": "decimalValue",
-        "Line_number": "5290"
+        "Line_number": "5296"
       }
     ],
     "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/fastjson/src/main/java/com/alibaba/fastjson/parser/ParserConfig.java": [
       {
         "Function_name": "createJavaBeanDeserializer",
-        "Line_number": "1091"
+        "Line_number": "1082"
       }
     ],
     "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/fastjson/src/main/java/com/alibaba/fastjson/parser/JSONReaderScanner.java": [
@@ -514,15 +518,19 @@
     "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/fastjson/src/main/java/com/alibaba/fastjson/parser/DefaultJSONParser.java": [
       {
         "Function_name": "parseObject",
-        "Line_number": "286"
+        "Line_number": "280"
       },
       {
         "Function_name": "parseObject",
-        "Line_number": "382"
+        "Line_number": "376"
       },
       {
         "Function_name": "parseObject",
-        "Line_number": "716"
+        "Line_number": "710"
+      },
+      {
+        "Function_name": "parseArray",
+        "Line_number": "1281"
       }
     ],
     "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/fastjson/src/main/java/com/alibaba/fastjson/support/retrofit/Retrofit2ConverterFactory.java": [
@@ -568,15 +576,15 @@
     "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/fastjson/src/main/java/com/alibaba/fastjson/support/spring/FastJsonHttpMessageConverter.java": [
       {
         "Function_name": "readType",
-        "Line_number": "271"
+        "Line_number": "274"
       },
       {
         "Function_name": "readType",
-        "Line_number": "273"
+        "Line_number": "276"
       },
       {
         "Function_name": "writeInternal",
-        "Line_number": "333"
+        "Line_number": "341"
       }
     ],
     "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/fastjson/src/main/java/com/alibaba/fastjson/JSONPath.java": [
@@ -625,7 +633,7 @@
         "Line_number": "4313"
       }
     ],
-    "Number_of_occurrences_in_the_project": 128
+    "Number_of_occurrences_in_the_project": 131
   },
   "ThrowsGeneric": {
     "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/fastjson/src/test/java/com/derbysoft/spitfire/fastjson/TestFastJson.java": [
@@ -739,15 +747,15 @@
     "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/fastjson/src/test/java/com/alibaba/json/demo/hibernate/LazyLoadingTest.java": [
       {
         "Function_name": "setUp",
-        "Line_number": "21"
+        "Line_number": "17"
       },
       {
         "Function_name": "tearDown",
-        "Line_number": "25"
+        "Line_number": "21"
       },
       {
         "Function_name": "testGetCustomerJson",
-        "Line_number": "31"
+        "Line_number": "27"
       }
     ],
     "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/fastjson/src/test/java/com/alibaba/json/demo/hibernate/ForceLazyLoadingTest.java": [
@@ -1770,6 +1778,12 @@
         "Line_number": "16"
       }
     ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/fastjson/src/test/java/com/alibaba/json/test/Issue3805.java": [
+      {
+        "Function_name": "test",
+        "Line_number": "30"
+      }
+    ],
     "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/fastjson/src/test/java/com/alibaba/json/test/JSONParser2Test.java": [
       {
         "Function_name": "setUp",
@@ -1791,15 +1805,15 @@
     "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/fastjson/src/test/java/com/alibaba/json/test/FNV32_CollisionTest_All.java": [
       {
         "Function_name": "setUp",
-        "Line_number": "34"
+        "Line_number": "37"
       },
       {
         "Function_name": "tearDown",
-        "Line_number": "42"
+        "Line_number": "45"
       },
       {
         "Function_name": "test_fnv_hash",
-        "Line_number": "46"
+        "Line_number": "49"
       }
     ],
     "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/fastjson/src/test/java/com/alibaba/json/test/SymbolTableDupTest.java": [
@@ -2257,7 +2271,7 @@
     "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/fastjson/src/test/java/com/alibaba/json/test/FNVHashTest.java": [
       {
         "Function_name": "test_fnv_hash",
-        "Line_number": "14"
+        "Line_number": "17"
       }
     ],
     "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/fastjson/src/test/java/com/alibaba/json/test/Issue1407.java": [
@@ -3020,6 +3034,10 @@
       {
         "Function_name": "test_for_issue",
         "Line_number": "13"
+      },
+      {
+        "Function_name": "test_for_issue_1",
+        "Line_number": "25"
       }
     ],
     "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/fastjson/src/test/java/com/alibaba/json/bvt/jdk8/LocalDateTimeTest3_private.java": [
@@ -3659,17 +3677,23 @@
     "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/fastjson/src/test/java/com/alibaba/json/bvt/PointTest2.java": [
       {
         "Function_name": "test_point",
-        "Line_number": "15"
+        "Line_number": "17"
       },
       {
         "Function_name": "test_point2",
-        "Line_number": "33"
+        "Line_number": "35"
       }
     ],
     "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/fastjson/src/test/java/com/alibaba/json/bvt/serializer/DoubleFormatTest.java": [
       {
         "Function_name": "test_format",
         "Line_number": "11"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/fastjson/src/test/java/com/alibaba/json/bvt/serializer/JSONFieldTest_unwrapped_7.java": [
+      {
+        "Function_name": "test_jsonField",
+        "Line_number": "13"
       }
     ],
     "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/fastjson/src/test/java/com/alibaba/json/bvt/serializer/writeJSONStringToTest.java": [
@@ -5230,6 +5254,20 @@
         "Line_number": "30"
       }
     ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/fastjson/src/test/java/com/alibaba/json/bvt/serializer/ClobSerializerTest.java": [
+      {
+        "Function_name": "test_clob",
+        "Line_number": "19"
+      },
+      {
+        "Function_name": "test_clob_null",
+        "Line_number": "24"
+      },
+      {
+        "Function_name": "test_clob_error",
+        "Line_number": "29"
+      }
+    ],
     "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/fastjson/src/test/java/com/alibaba/json/bvt/serializer/enum_/EnumOrdinalTest.java": [
       {
         "Function_name": "test_enum_ordinal",
@@ -5900,20 +5938,6 @@
       {
         "Function_name": "test_max_buf",
         "Line_number": "16"
-      }
-    ],
-    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/fastjson/src/test/java/com/alibaba/json/bvt/serializer/ClobSeriliazerTest.java": [
-      {
-        "Function_name": "test_clob",
-        "Line_number": "19"
-      },
-      {
-        "Function_name": "test_clob_null",
-        "Line_number": "24"
-      },
-      {
-        "Function_name": "test_clob_error",
-        "Line_number": "29"
       }
     ],
     "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/fastjson/src/test/java/com/alibaba/json/bvt/serializer/JSONSerializerTest3.java": [
@@ -7121,7 +7145,7 @@
     "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/fastjson/src/test/java/com/alibaba/json/bvt/serializer/exception/ExceptionTest.java": [
       {
         "Function_name": "test_exception",
-        "Line_number": "10"
+        "Line_number": "13"
       }
     ],
     "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/fastjson/src/test/java/com/alibaba/json/bvt/serializer/exception/RuntimeExceptionTest.java": [
@@ -8287,7 +8311,7 @@
     "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/fastjson/src/test/java/com/alibaba/json/bvt/util/AntiCollisionHashMapTest_writeClassName.java": [
       {
         "Function_name": "test_for_bug",
-        "Line_number": "11"
+        "Line_number": "12"
       }
     ],
     "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/fastjson/src/test/java/com/alibaba/json/bvt/util/TypeUtilsCastLinkedHashMap.java": [
@@ -10715,15 +10739,15 @@
     "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/fastjson/src/test/java/com/alibaba/json/bvt/path/JSONPath_reverse_test.java": [
       {
         "Function_name": "test_reserve",
-        "Line_number": "10"
+        "Line_number": "11"
       },
       {
         "Function_name": "test_reserve2",
-        "Line_number": "18"
+        "Line_number": "25"
       },
       {
         "Function_name": "test_reserve3",
-        "Line_number": "26"
+        "Line_number": "33"
       }
     ],
     "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/fastjson/src/test/java/com/alibaba/json/bvt/path/JSONPath_set.java": [
@@ -11686,6 +11710,18 @@
         "Line_number": "190"
       }
     ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/fastjson/src/test/java/com/alibaba/json/bvt/issue_3600/Issue3614.java": [
+      {
+        "Function_name": "test_for_issue",
+        "Line_number": "13"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/fastjson/src/test/java/com/alibaba/json/bvt/issue_3600/Issue3628.java": [
+      {
+        "Function_name": "test_for_issue",
+        "Line_number": "7"
+      }
+    ],
     "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/fastjson/src/test/java/com/alibaba/json/bvt/issue_3600/Issue3629.java": [
       {
         "Function_name": "test_for_issue",
@@ -11708,6 +11744,20 @@
       {
         "Function_name": "test_for_issue",
         "Line_number": "16"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/fastjson/src/test/java/com/alibaba/json/bvt/issue_3600/Issue3631.java": [
+      {
+        "Function_name": "test_issue_1",
+        "Line_number": "10"
+      },
+      {
+        "Function_name": "test_issue_2",
+        "Line_number": "18"
+      },
+      {
+        "Function_name": "test_issue_3",
+        "Line_number": "26"
       }
     ],
     "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/fastjson/src/test/java/com/alibaba/json/bvt/issue_3600/Issue3682.java": [
@@ -14281,7 +14331,7 @@
     "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/fastjson/src/test/java/com/alibaba/json/bvt/bug/Bug_for_Exception.java": [
       {
         "Function_name": "test_exception",
-        "Line_number": "8"
+        "Line_number": "11"
       }
     ],
     "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/fastjson/src/test/java/com/alibaba/json/bvt/bug/Issue922.java": [
@@ -18556,6 +18606,12 @@
         "Line_number": "92"
       }
     ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/fastjson/src/test/java/com/alibaba/json/bvt/parser/deser/list/ListFieldTest.java": [
+      {
+        "Function_name": "test_for_list",
+        "Line_number": "7"
+      }
+    ],
     "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/fastjson/src/test/java/com/alibaba/json/bvt/parser/deser/list/ArrayLisMapDeserializerTest.java": [
       {
         "Function_name": "test_list",
@@ -21603,19 +21659,15 @@
     "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/fastjson/src/test/java/com/alibaba/json/bvt/parser/autoType/AutoTypeTest7.java": [
       {
         "Function_name": "test_0",
-        "Line_number": "8"
+        "Line_number": "10"
       },
       {
         "Function_name": "test_1",
-        "Line_number": "12"
-      },
-      {
-        "Function_name": "test_2",
-        "Line_number": "16"
+        "Line_number": "14"
       },
       {
         "Function_name": "test_3",
-        "Line_number": "21"
+        "Line_number": "23"
       }
     ],
     "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/fastjson/src/test/java/com/alibaba/json/bvt/parser/autoType/AutoTypeTest0.java": [
@@ -21822,32 +21874,32 @@
         "Line_number": "290"
       },
       {
-        "Function_name": "test_cast_to_Timestamp_error",
+        "Function_name": "test_cast_to_Timestamp_not_error",
         "Line_number": "301"
       },
       {
         "Function_name": "test_cast_ab",
-        "Line_number": "314"
+        "Line_number": "315"
       },
       {
         "Function_name": "test_cast_ab_1",
-        "Line_number": "322"
+        "Line_number": "323"
       },
       {
         "Function_name": "test_cast_ab_error",
-        "Line_number": "330"
+        "Line_number": "331"
       },
       {
         "Function_name": "test_error",
-        "Line_number": "345"
+        "Line_number": "346"
       },
       {
         "Function_name": "test_error_2",
-        "Line_number": "358"
+        "Line_number": "359"
       },
       {
         "Function_name": "test_3",
-        "Line_number": "373"
+        "Line_number": "374"
       }
     ],
     "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/fastjson/src/test/java/com/alibaba/json/bvt/parser/ProductViewTest.java": [
@@ -22489,47 +22541,47 @@
     "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/fastjson/src/test/java/com/alibaba/json/bvt/parser/JSONScannerTest_scanSymbol.java": [
       {
         "Function_name": "test_0",
-        "Line_number": "18"
+        "Line_number": "21"
       },
       {
         "Function_name": "test_1",
-        "Line_number": "25"
+        "Line_number": "28"
       },
       {
         "Function_name": "test_2",
-        "Line_number": "33"
+        "Line_number": "36"
       },
       {
         "Function_name": "test_3",
-        "Line_number": "41"
+        "Line_number": "44"
       },
       {
         "Function_name": "test_4",
-        "Line_number": "49"
+        "Line_number": "52"
       },
       {
         "Function_name": "test_6",
-        "Line_number": "57"
+        "Line_number": "60"
       },
       {
         "Function_name": "test_7",
-        "Line_number": "64"
+        "Line_number": "67"
       },
       {
         "Function_name": "test_8",
-        "Line_number": "71"
+        "Line_number": "74"
       },
       {
         "Function_name": "test_9",
-        "Line_number": "78"
+        "Line_number": "81"
       },
       {
         "Function_name": "test_10",
-        "Line_number": "85"
+        "Line_number": "88"
       },
       {
         "Function_name": "test_11",
-        "Line_number": "92"
+        "Line_number": "95"
       }
     ],
     "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/fastjson/src/test/java/com/alibaba/json/bvt/parser/ReadOnlyCollectionTest_final_field_null.java": [
@@ -22698,6 +22750,12 @@
       {
         "Function_name": "test_codec",
         "Line_number": "15"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/fastjson/src/test/java/com/alibaba/json/bvt/issue_3800/Issue3810.java": [
+      {
+        "Function_name": "test_for_issue",
+        "Line_number": "31"
       }
     ],
     "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/fastjson/src/test/java/com/alibaba/json/bvt/atomic/AtomicIntegerReadOnlyTest.java": [
@@ -23511,57 +23569,57 @@
     "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/fastjson/src/test/java/com/alibaba/json/bvt/support/spring/security/DefaultSavedRequestTest.java": [
       {
         "Function_name": "setUp",
-        "Line_number": "31"
+        "Line_number": "33"
       },
       {
         "Function_name": "test_for_issue",
-        "Line_number": "37"
+        "Line_number": "44"
       },
       {
         "Function_name": "test_cookie",
-        "Line_number": "56"
-      },
-      {
-        "Function_name": "test_0",
         "Line_number": "63"
       },
       {
+        "Function_name": "test_0",
+        "Line_number": "70"
+      },
+      {
         "Function_name": "test_http_cookie",
-        "Line_number": "71"
+        "Line_number": "78"
       },
       {
         "Function_name": "test_PreAuthenticatedAuthenticationToken",
-        "Line_number": "82"
+        "Line_number": "89"
       },
       {
         "Function_name": "test_WebAuthenticationDetails",
-        "Line_number": "92"
+        "Line_number": "99"
       },
       {
         "Function_name": "test_SecurityContextImpl",
-        "Line_number": "98"
-      },
-      {
-        "Function_name": "test_UsernamePasswordAuthenticationToken",
         "Line_number": "105"
       },
       {
+        "Function_name": "test_UsernamePasswordAuthenticationToken",
+        "Line_number": "112"
+      },
+      {
         "Function_name": "test_SimpleGrantedAuthority",
-        "Line_number": "116"
+        "Line_number": "123"
       },
       {
         "Function_name": "test_User",
-        "Line_number": "128"
+        "Line_number": "135"
       },
       {
         "Function_name": "test_SecurityContextImpl_x",
-        "Line_number": "141"
+        "Line_number": "149"
       }
     ],
     "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/fastjson/src/test/java/com/alibaba/json/bvt/support/spring/security/DefaultOAuth2AccessTokenTest.java": [
       {
         "Function_name": "test_0",
-        "Line_number": "11"
+        "Line_number": "13"
       }
     ],
     "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/fastjson/src/test/java/com/alibaba/json/bvt/support/spring/mock/testcase/FastJsonpHttpMessageConverter4Case2Test.java": [
@@ -24311,7 +24369,7 @@
     "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/fastjson/src/test/java/com/alibaba/json/bvt/issue_1200/Issue1240.java": [
       {
         "Function_name": "test_for_issue",
-        "Line_number": "13"
+        "Line_number": "14"
       }
     ],
     "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/fastjson/src/test/java/com/alibaba/json/bvt/FinalTest.java": [
@@ -24718,20 +24776,6 @@
         "Line_number": "7"
       }
     ],
-    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/fastjson/src/test/java/com/alibaba/json/bvt/issue_3300/Issue3314.java": [
-      {
-        "Function_name": "setUp",
-        "Line_number": "15"
-      },
-      {
-        "Function_name": "tearDown",
-        "Line_number": "22"
-      },
-      {
-        "Function_name": "test_for_issue",
-        "Line_number": "26"
-      }
-    ],
     "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/fastjson/src/test/java/com/alibaba/json/bvt/issue_3300/Issue3343.java": [
       {
         "Function_name": "test_for_issue",
@@ -24920,12 +24964,6 @@
         "Line_number": "29"
       }
     ],
-    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/fastjson/src/test/java/com/alibaba/json/bvt/awt/ColorTest2.java": [
-      {
-        "Function_name": "test_color",
-        "Line_number": "16"
-      }
-    ],
     "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/fastjson/src/test/java/com/alibaba/json/bvt/awt/FontTest.java": [
       {
         "Function_name": "test_color",
@@ -24947,7 +24985,7 @@
     "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/fastjson/src/test/java/com/alibaba/json/bvt/RectangleTest.java": [
       {
         "Function_name": "test_color",
-        "Line_number": "16"
+        "Line_number": "17"
       }
     ],
     "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/fastjson/src/test/java/com/alibaba/json/bvt/cglib/TestCglib.java": [
@@ -26243,11 +26281,11 @@
     "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/fastjson/src/test/java/com/alibaba/json/bvt/issue_3000/Issue3082.java": [
       {
         "Function_name": "test_for_issue_entry",
-        "Line_number": "13"
+        "Line_number": "14"
       },
       {
         "Function_name": "test_for_issue",
-        "Line_number": "19"
+        "Line_number": "20"
       }
     ],
     "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/fastjson/src/test/java/com/alibaba/json/bvt/issue_3000/Issue3060.java": [
@@ -26629,23 +26667,23 @@
     "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/fastjson/src/main/java/com/alibaba/fastjson/serializer/JavaBeanSerializer.java": [
       {
         "Function_name": "getFieldValues",
-        "Line_number": "724"
+        "Line_number": "721"
       },
       {
         "Function_name": "getObjectFieldValues",
-        "Line_number": "734"
+        "Line_number": "731"
       },
       {
         "Function_name": "getSize",
-        "Line_number": "750"
+        "Line_number": "747"
       },
       {
         "Function_name": "getFieldNames",
-        "Line_number": "769"
+        "Line_number": "766"
       },
       {
         "Function_name": "getFieldValuesMap",
-        "Line_number": "780"
+        "Line_number": "777"
       }
     ],
     "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/fastjson/src/main/java/com/alibaba/fastjson/serializer/FieldSerializer.java": [
@@ -26672,6 +26710,6 @@
         "Line_number": "289"
       }
     ],
-    "Number_of_occurrences_in_the_project": 5302
+    "Number_of_occurrences_in_the_project": 5307
   }
 }

@@ -1,0 +1,643 @@
+{
+  "ThrowsKitchenSink": {
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-csv/src/test/java/org/apache/commons/csv/PerformanceTest.java": [
+      {
+        "Function_name": "createTestCSVLexer",
+        "Line_number": "91"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-csv/src/test/java/org/apache/commons/csv/CSVPrinterTest.java": [
+      {
+        "Function_name": "testJdbcPrinter",
+        "Line_number": "677"
+      },
+      {
+        "Function_name": "testJdbcPrinterWithResultSet",
+        "Line_number": "691"
+      },
+      {
+        "Function_name": "testJdbcPrinterWithResultSetHeader",
+        "Line_number": "707"
+      },
+      {
+        "Function_name": "testJdbcPrinterWithResultSetMetaData",
+        "Line_number": "728"
+      }
+    ],
+    "Number_of_occurrences_in_the_project": 5
+  },
+  "ThrowsDestructiveWrapping": {
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-csv/src/test/java/org/apache/commons/csv/issues/JiraCsv213Test.java": [
+      {
+        "Function_name": "createEndChannel",
+        "Line_number": "60"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-csv/src/main/java/org/apache/commons/csv/CSVParser.java": [
+      {
+        "Function_name": "getNextRecord",
+        "Line_number": "150"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-csv/src/main/java/org/apache/commons/csv/CSVFormat.java": [
+      {
+        "Function_name": "format",
+        "Line_number": "1490"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-csv/src/main/java/org/apache/commons/csv/CSVRecord.java": [
+      {
+        "Function_name": "get",
+        "Line_number": "127"
+      }
+    ],
+    "Number_of_occurrences_in_the_project": 4
+  },
+  "ThrowsGeneric": {
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-csv/src/test/java/org/apache/commons/csv/CSVFileParserTest.java": [
+      {
+        "Function_name": "testCSVFile",
+        "Line_number": "60"
+      },
+      {
+        "Function_name": "testCSVUrl",
+        "Line_number": "105"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-csv/src/test/java/org/apache/commons/csv/ExtendedBufferedReaderTest.java": [
+      {
+        "Function_name": "testEmptyInput",
+        "Line_number": "40"
+      },
+      {
+        "Function_name": "testReadChar",
+        "Line_number": "55"
+      },
+      {
+        "Function_name": "testReadingInDifferentBuffer",
+        "Line_number": "89"
+      },
+      {
+        "Function_name": "testReadLine",
+        "Line_number": "99"
+      },
+      {
+        "Function_name": "testReadLookahead1",
+        "Line_number": "142"
+      },
+      {
+        "Function_name": "testReadLookahead2",
+        "Line_number": "201"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-csv/src/test/java/org/apache/commons/csv/PerformanceTest.java": [
+      {
+        "Function_name": "getLexerCtor",
+        "Line_number": "96"
+      },
+      {
+        "Function_name": "main",
+        "Line_number": "112"
+      },
+      {
+        "Function_name": "testCSVLexer",
+        "Line_number": "202"
+      },
+      {
+        "Function_name": "testExtendedBuffer",
+        "Line_number": "250"
+      },
+      {
+        "Function_name": "testParseCommonsCSV",
+        "Line_number": "288"
+      },
+      {
+        "Function_name": "testParsePath",
+        "Line_number": "292"
+      },
+      {
+        "Function_name": "testParsePathDoubleBuffering",
+        "Line_number": "296"
+      },
+      {
+        "Function_name": "testParser",
+        "Line_number": "300"
+      },
+      {
+        "Function_name": "testParseURL",
+        "Line_number": "313"
+      },
+      {
+        "Function_name": "testReadBigFile",
+        "Line_number": "317"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-csv/src/test/java/org/apache/commons/csv/CSVRecordTest.java": [
+      {
+        "Function_name": "setUp",
+        "Line_number": "71"
+      },
+      {
+        "Function_name": "testToMapWithNoHeader",
+        "Line_number": "319"
+      },
+      {
+        "Function_name": "testToMapWithShortRecord",
+        "Line_number": "329"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-csv/src/test/java/org/apache/commons/csv/CSVBenchmark.java": [
+      {
+        "Function_name": "read",
+        "Line_number": "80"
+      },
+      {
+        "Function_name": "scan",
+        "Line_number": "94"
+      },
+      {
+        "Function_name": "split",
+        "Line_number": "109"
+      },
+      {
+        "Function_name": "parseCommonsCSV",
+        "Line_number": "125"
+      },
+      {
+        "Function_name": "parseGenJavaCSV",
+        "Line_number": "142"
+      },
+      {
+        "Function_name": "parseJavaCSV",
+        "Line_number": "158"
+      },
+      {
+        "Function_name": "parseOpenCSV",
+        "Line_number": "174"
+      },
+      {
+        "Function_name": "parseSkifeCSV",
+        "Line_number": "192"
+      },
+      {
+        "Function_name": "parseSuperCSV",
+        "Line_number": "215"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-csv/src/test/java/org/apache/commons/csv/LexerTest.java": [
+      {
+        "Function_name": "testBackspace",
+        "Line_number": "102"
+      },
+      {
+        "Function_name": "testCR",
+        "Line_number": "178"
+      },
+      {
+        "Function_name": "testEscapedBackspace",
+        "Line_number": "200"
+      },
+      {
+        "Function_name": "testEscapedCharacter",
+        "Line_number": "207"
+      },
+      {
+        "Function_name": "testEscapedControlCharacter",
+        "Line_number": "214"
+      },
+      {
+        "Function_name": "testEscapedControlCharacter2",
+        "Line_number": "222"
+      },
+      {
+        "Function_name": "testEscapedCR",
+        "Line_number": "229"
+      },
+      {
+        "Function_name": "testEscapedFF",
+        "Line_number": "236"
+      },
+      {
+        "Function_name": "testEscapedLF",
+        "Line_number": "243"
+      },
+      {
+        "Function_name": "testEscapedMySqlNullValue",
+        "Line_number": "250"
+      },
+      {
+        "Function_name": "testEscapedTab",
+        "Line_number": "258"
+      },
+      {
+        "Function_name": "testEscapingAtEOF",
+        "Line_number": "266"
+      },
+      {
+        "Function_name": "testFF",
+        "Line_number": "274"
+      },
+      {
+        "Function_name": "testLF",
+        "Line_number": "308"
+      },
+      {
+        "Function_name": "testTab",
+        "Line_number": "420"
+      },
+      {
+        "Function_name": "testTrimTrailingSpacesZeroLength",
+        "Line_number": "427"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-csv/src/test/java/org/apache/commons/csv/CSVFormatTest.java": [
+      {
+        "Function_name": "testEqualsHash",
+        "Line_number": "228"
+      },
+      {
+        "Function_name": "testSerialization",
+        "Line_number": "962"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-csv/src/test/java/org/apache/commons/csv/perf/PerformanceTest.java": [
+      {
+        "Function_name": "testParseBigFile",
+        "Line_number": "100"
+      },
+      {
+        "Function_name": "testParseBigFileRepeat",
+        "Line_number": "112"
+      },
+      {
+        "Function_name": "testReadBigFile",
+        "Line_number": "121"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-csv/src/test/java/org/apache/commons/csv/issues/JiraCsv290Test.java": [
+      {
+        "Function_name": "testHelper",
+        "Line_number": "60"
+      },
+      {
+        "Function_name": "testPostgresqlCsv",
+        "Line_number": "84"
+      },
+      {
+        "Function_name": "testPostgresqlText",
+        "Line_number": "89"
+      },
+      {
+        "Function_name": "testWriteThenRead",
+        "Line_number": "94"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-csv/src/test/java/org/apache/commons/csv/issues/JiraCsv203Test.java": [
+      {
+        "Function_name": "testQuoteModeAll",
+        "Line_number": "33"
+      },
+      {
+        "Function_name": "testQuoteModeAllNonNull",
+        "Line_number": "49"
+      },
+      {
+        "Function_name": "testQuoteModeMinimal",
+        "Line_number": "65"
+      },
+      {
+        "Function_name": "testQuoteModeNonNumeric",
+        "Line_number": "81"
+      },
+      {
+        "Function_name": "testWithEmptyValues",
+        "Line_number": "97"
+      },
+      {
+        "Function_name": "testWithoutNullString",
+        "Line_number": "114"
+      },
+      {
+        "Function_name": "testWithoutQuoteMode",
+        "Line_number": "130"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-csv/src/test/java/org/apache/commons/csv/issues/JiraCsv247Test.java": [
+      {
+        "Function_name": "testHeadersMissingOneColumnWhenAllowingMissingColumnNames",
+        "Line_number": "38"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-csv/src/test/java/org/apache/commons/csv/issues/JiraCsv288Test.java": [
+      {
+        "Function_name": "testParseWithABADelimiter",
+        "Line_number": "43"
+      },
+      {
+        "Function_name": "testParseWithDoublePipeDelimiter",
+        "Line_number": "58"
+      },
+      {
+        "Function_name": "testParseWithDoublePipeDelimiterDoubleCharValue",
+        "Line_number": "73"
+      },
+      {
+        "Function_name": "testParseWithDoublePipeDelimiterEndsWithDelimiter",
+        "Line_number": "88"
+      },
+      {
+        "Function_name": "testParseWithDoublePipeDelimiterQuoted",
+        "Line_number": "103"
+      },
+      {
+        "Function_name": "testParseWithSinglePipeDelimiterEndsWithDelimiter",
+        "Line_number": "117"
+      },
+      {
+        "Function_name": "testParseWithTriplePipeDelimiter",
+        "Line_number": "132"
+      },
+      {
+        "Function_name": "testParseWithTwoCharDelimiter1",
+        "Line_number": "146"
+      },
+      {
+        "Function_name": "testParseWithTwoCharDelimiter2",
+        "Line_number": "160"
+      },
+      {
+        "Function_name": "testParseWithTwoCharDelimiter3",
+        "Line_number": "174"
+      },
+      {
+        "Function_name": "testParseWithTwoCharDelimiter4",
+        "Line_number": "188"
+      },
+      {
+        "Function_name": "testParseWithTwoCharDelimiterEndsWithDelimiter",
+        "Line_number": "203"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-csv/src/test/java/org/apache/commons/csv/CSVParserTest.java": [
+      {
+        "Function_name": "testClose",
+        "Line_number": "265"
+      },
+      {
+        "Function_name": "testCSV141CSVFormat_DEFAULT",
+        "Line_number": "277"
+      },
+      {
+        "Function_name": "testCSV141CSVFormat_INFORMIX_UNLOAD",
+        "Line_number": "282"
+      },
+      {
+        "Function_name": "testCSV141CSVFormat_INFORMIX_UNLOAD_CSV",
+        "Line_number": "287"
+      },
+      {
+        "Function_name": "testCSV141CSVFormat_ORACLE",
+        "Line_number": "292"
+      },
+      {
+        "Function_name": "testCSV141CSVFormat_POSTGRESQL_CSV",
+        "Line_number": "298"
+      },
+      {
+        "Function_name": "testCSV141Excel",
+        "Line_number": "304"
+      },
+      {
+        "Function_name": "testCSV141RFC4180",
+        "Line_number": "375"
+      },
+      {
+        "Function_name": "testCSV57",
+        "Line_number": "394"
+      },
+      {
+        "Function_name": "testDuplicateHeadersAllowedByDefault",
+        "Line_number": "431"
+      },
+      {
+        "Function_name": "testEmptyFile",
+        "Line_number": "444"
+      },
+      {
+        "Function_name": "testEmptyFileHeaderParsing",
+        "Line_number": "452"
+      },
+      {
+        "Function_name": "testEmptyLineBehaviorCSV",
+        "Line_number": "460"
+      },
+      {
+        "Function_name": "testEmptyLineBehaviorExcel",
+        "Line_number": "477"
+      },
+      {
+        "Function_name": "testEmptyString",
+        "Line_number": "494"
+      },
+      {
+        "Function_name": "testEndOfFileBehaviorCSV",
+        "Line_number": "501"
+      },
+      {
+        "Function_name": "testEndOfFileBehaviorExcel",
+        "Line_number": "519"
+      },
+      {
+        "Function_name": "testExcelFormat2",
+        "Line_number": "553"
+      },
+      {
+        "Function_name": "testExcelHeaderCountLessThanData",
+        "Line_number": "570"
+      },
+      {
+        "Function_name": "testForEach",
+        "Line_number": "612"
+      },
+      {
+        "Function_name": "testGetHeaderMap",
+        "Line_number": "696"
+      },
+      {
+        "Function_name": "testGetLineNumberWithCR",
+        "Line_number": "754"
+      },
+      {
+        "Function_name": "testGetLineNumberWithCRLF",
+        "Line_number": "759"
+      },
+      {
+        "Function_name": "testGetLineNumberWithLF",
+        "Line_number": "764"
+      },
+      {
+        "Function_name": "testGetRecordNumberWithCR",
+        "Line_number": "797"
+      },
+      {
+        "Function_name": "testGetRecordNumberWithCRLF",
+        "Line_number": "802"
+      },
+      {
+        "Function_name": "testGetRecordNumberWithLF",
+        "Line_number": "807"
+      },
+      {
+        "Function_name": "testGetRecordPositionWithCRLF",
+        "Line_number": "812"
+      },
+      {
+        "Function_name": "testGetRecordPositionWithLF",
+        "Line_number": "817"
+      },
+      {
+        "Function_name": "testGetRecordWithMultiLineValues",
+        "Line_number": "842"
+      },
+      {
+        "Function_name": "testHeader",
+        "Line_number": "930"
+      },
+      {
+        "Function_name": "testHeaderComment",
+        "Line_number": "949"
+      },
+      {
+        "Function_name": "testHeaderMissing",
+        "Line_number": "968"
+      },
+      {
+        "Function_name": "testHeaderMissingWithNull",
+        "Line_number": "986"
+      },
+      {
+        "Function_name": "testHeadersMissing",
+        "Line_number": "994"
+      },
+      {
+        "Function_name": "testIgnoreCaseHeaderMapping",
+        "Line_number": "1028"
+      },
+      {
+        "Function_name": "testIterator",
+        "Line_number": "1055"
+      },
+      {
+        "Function_name": "testMappedButNotSetAsOutlook2007ContactExport",
+        "Line_number": "1143"
+      },
+      {
+        "Function_name": "testMongoDbCsv",
+        "Line_number": "1180"
+      },
+      {
+        "Function_name": "testMultipleIterators",
+        "Line_number": "1199"
+      },
+      {
+        "Function_name": "testNoHeaderMap",
+        "Line_number": "1226"
+      },
+      {
+        "Function_name": "testParse",
+        "Line_number": "1243"
+      },
+      {
+        "Function_name": "testProvidedHeader",
+        "Line_number": "1381"
+      },
+      {
+        "Function_name": "testProvidedHeaderAuto",
+        "Line_number": "1404"
+      },
+      {
+        "Function_name": "testRoundtrip",
+        "Line_number": "1438"
+      },
+      {
+        "Function_name": "testSkipAutoHeader",
+        "Line_number": "1451"
+      },
+      {
+        "Function_name": "testSkipHeaderOverrideDuplicateHeaders",
+        "Line_number": "1463"
+      },
+      {
+        "Function_name": "testSkipSetAltHeaders",
+        "Line_number": "1474"
+      },
+      {
+        "Function_name": "testSkipSetHeader",
+        "Line_number": "1486"
+      },
+      {
+        "Function_name": "testStartWithEmptyLinesThenHeaders",
+        "Line_number": "1499"
+      },
+      {
+        "Function_name": "testStream",
+        "Line_number": "1516"
+      },
+      {
+        "Function_name": "testTrailingDelimiter",
+        "Line_number": "1527"
+      },
+      {
+        "Function_name": "testTrim",
+        "Line_number": "1540"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-csv/src/test/java/org/apache/commons/csv/CSVPrinterTest.java": [
+      {
+        "Function_name": "doOneRandom",
+        "Line_number": "105"
+      },
+      {
+        "Function_name": "doRandom",
+        "Line_number": "137"
+      },
+      {
+        "Function_name": "testRandomDefault",
+        "Line_number": "1609"
+      },
+      {
+        "Function_name": "testRandomExcel",
+        "Line_number": "1614"
+      },
+      {
+        "Function_name": "testRandomMongoDbCsv",
+        "Line_number": "1620"
+      },
+      {
+        "Function_name": "testRandomMySql",
+        "Line_number": "1625"
+      },
+      {
+        "Function_name": "testRandomOracle",
+        "Line_number": "1631"
+      },
+      {
+        "Function_name": "testRandomPostgreSqlCsv",
+        "Line_number": "1637"
+      },
+      {
+        "Function_name": "testRandomPostgreSqlText",
+        "Line_number": "1642"
+      },
+      {
+        "Function_name": "testRandomRfc4180",
+        "Line_number": "1648"
+      },
+      {
+        "Function_name": "testRandomTdf",
+        "Line_number": "1653"
+      }
+    ],
+    "Number_of_occurrences_in_the_project": 139
+  }
+}

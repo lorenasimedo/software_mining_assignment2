@@ -1,0 +1,207 @@
+{
+  "ThrowsKitchenSink": {
+    "Number_of_occurrences_in_the_project": 0
+  },
+  "ThrowsDestructiveWrapping": {
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/jsoup/src/test/java/org/jsoup/integration/ParseTest.java": [
+      {
+        "Function_name": "getFile",
+        "Line_number": "132"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/jsoup/src/test/java/org/jsoup/integration/SessionIT.java": [
+      {
+        "Function_name": "multiThread",
+        "Line_number": "53"
+      },
+      {
+        "Function_name": "multiThreadWithoutNewRequestBlowsUp",
+        "Line_number": "89"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/jsoup/src/test/java/org/jsoup/integration/ConnectIT.java": [
+      {
+        "Function_name": "canInterruptBodyStringRead",
+        "Line_number": "36"
+      },
+      {
+        "Function_name": "canInterruptDocumentRead",
+        "Line_number": "62"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/jsoup/src/test/java/org/jsoup/integration/TestServer.java": [
+      {
+        "Function_name": "start",
+        "Line_number": "26"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/jsoup/src/test/java/org/jsoup/parser/ParserIT.java": [
+      {
+        "Function_name": "testIssue1251",
+        "Line_number": "24"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/jsoup/src/test/java/org/jsoup/parser/HtmlTreeBuilderStateTest.java": [
+      {
+        "Function_name": "findConstantArrays",
+        "Line_number": "28"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/jsoup/src/test/java/org/jsoup/helper/W3CDomTest.java": [
+      {
+        "Function_name": "parseXml",
+        "Line_number": "50"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/jsoup/src/main/java/org/jsoup/nodes/Attributes.java": [
+      {
+        "Function_name": "html",
+        "Line_number": "384"
+      },
+      {
+        "Function_name": "clone",
+        "Line_number": "452"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/jsoup/src/main/java/org/jsoup/nodes/Element.java": [
+      {
+        "Function_name": "getElementsByAttributeValueMatching",
+        "Line_number": "1174"
+      },
+      {
+        "Function_name": "getElementsMatchingText",
+        "Line_number": "1249"
+      },
+      {
+        "Function_name": "getElementsMatchingOwnText",
+        "Line_number": "1275"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/jsoup/src/main/java/org/jsoup/nodes/Node.java": [
+      {
+        "Function_name": "doClone",
+        "Line_number": "879"
+      },
+      {
+        "Function_name": "head",
+        "Line_number": "911"
+      },
+      {
+        "Function_name": "tail",
+        "Line_number": "920"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/jsoup/src/main/java/org/jsoup/nodes/Document.java": [
+      {
+        "Function_name": "clone",
+        "Line_number": "632"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/jsoup/src/main/java/org/jsoup/nodes/Entities.java": [
+      {
+        "Function_name": "escape",
+        "Line_number": "147"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/jsoup/src/main/java/org/jsoup/nodes/XmlDeclaration.java": [
+      {
+        "Function_name": "getWholeDeclaration",
+        "Line_number": "48"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/jsoup/src/main/java/org/jsoup/nodes/Attribute.java": [
+      {
+        "Function_name": "html",
+        "Line_number": "125"
+      },
+      {
+        "Function_name": "clone",
+        "Line_number": "241"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/jsoup/src/main/java/org/jsoup/parser/Tag.java": [
+      {
+        "Function_name": "clone",
+        "Line_number": "228"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/jsoup/src/main/java/org/jsoup/parser/Token.java": [
+      {
+        "Function_name": "clone",
+        "Line_number": "418"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/jsoup/src/main/java/org/jsoup/parser/CharacterReader.java": [
+      {
+        "Function_name": "bufferUp",
+        "Line_number": "105"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/jsoup/src/main/java/org/jsoup/select/QueryParser.java": [
+      {
+        "Function_name": "parse",
+        "Line_number": "47"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/jsoup/src/main/java/org/jsoup/helper/HttpConnection.java": [
+      {
+        "Function_name": "url",
+        "Line_number": "140"
+      },
+      {
+        "Function_name": "prepareByteData",
+        "Line_number": "1004"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/jsoup/src/main/java/org/jsoup/helper/UrlBuilder.java": [
+      {
+        "Function_name": "decodePart",
+        "Line_number": "84"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/jsoup/src/main/java/org/jsoup/helper/W3CDom.java": [
+      {
+        "Function_name": "asString",
+        "Line_number": "146"
+      },
+      {
+        "Function_name": "fromJsoup",
+        "Line_number": "216"
+      },
+      {
+        "Function_name": "selectXpath",
+        "Line_number": "287"
+      }
+    ],
+    "Number_of_occurrences_in_the_project": 32
+  },
+  "ThrowsGeneric": {
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/jsoup/src/test/java/org/jsoup/nodes/DocumentTest.java": [
+      {
+        "Function_name": "testShiftJisRoundtrip",
+        "Line_number": "451"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/jsoup/src/test/java/org/jsoup/integration/UrlConnectTest.java": [
+      {
+        "Function_name": "testUnsafeFail",
+        "Line_number": "242"
+      },
+      {
+        "Function_name": "testSNIFail",
+        "Line_number": "258"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/jsoup/src/test/java/org/jsoup/helper/DataUtilTest.java": [
+      {
+        "Function_name": "secondMetaElementWithContentTypeContainsCharsetParameter",
+        "Line_number": "109"
+      },
+      {
+        "Function_name": "firstMetaElementWithCharsetShouldBeUsedForDecoding",
+        "Line_number": "121"
+      }
+    ],
+    "Number_of_occurrences_in_the_project": 5
+  }
+}
