@@ -2,8 +2,8 @@ package ca.concordia.soen;
 
 import org.eclipse.jdt.core.dom.*;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.HashSet;
+import java.util.Set;
 
 public class ThrowsKitchenSinkVisitor extends AntiPatternVisitor {
     static int exceptionsThreshold = 3;
@@ -24,34 +24,34 @@ public class ThrowsKitchenSinkVisitor extends AntiPatternVisitor {
         }
 
         // Handling throws in the code
+        Set<String> codeExceptionsSet = new HashSet<>();
         Block body = declaration.getBody();
-        List<Type> exceptionTypesList = new ArrayList<>();
-        if (body != null) {
-            for (Object statement : body.statements()) {
-                if (statement instanceof ThrowStatement throwStatement) {
-                    Expression expression = throwStatement.getExpression();
-                    if (expression instanceof ClassInstanceCreation exception) {
-                        Type exceptionType = exception.getType();
-                        if (!exceptionTypesList.contains(exceptionType)) {
-                            exceptionTypesList.add(exceptionType);
-                        }
-                    }
-                }
-            }
+        if (body == null){
+            return true; // It is not an occurrence
         }
-        if (exceptionTypesList.size() >= exceptionsThreshold){
+        body.accept(new ASTVisitor() {
+
+            public boolean visit(ThrowStatement node) {
+                Expression expression = node.getExpression();
+                if (expression instanceof ClassInstanceCreation exception) {
+                    Type exceptionType = exception.getType();
+                    String exceptionTypeName = exceptionType.toString();
+                    codeExceptionsSet.add(exceptionTypeName);
+                }
+
+                return super.visit(node);
+            }
+
+        });
+
+        if (codeExceptionsSet.size() >= exceptionsThreshold){
             addNewAntiPatternOccurrence(declaration);
             return true;
         }
 
         // Merging both to check if together they exceed the threshold
-        List<Type> mergedExceptions;
-        mergedExceptions = exceptionTypesList;
-        for (Object exception : thrownExceptions) {
-            if (!mergedExceptions.contains(exception)) {
-                mergedExceptions.add((Type) exception);
-            }
-        }
+        Set<String> mergedExceptions = new HashSet<>(thrownExceptions);
+        mergedExceptions.addAll(codeExceptionsSet);
         if (mergedExceptions.size() >= exceptionsThreshold){
             addNewAntiPatternOccurrence(declaration);
             return true;
@@ -60,6 +60,8 @@ public class ThrowsKitchenSinkVisitor extends AntiPatternVisitor {
         // It is not an occurrence
         return true;
     }
+
+
 
 
     public void addNewAntiPatternOccurrence(MethodDeclaration declaration){
