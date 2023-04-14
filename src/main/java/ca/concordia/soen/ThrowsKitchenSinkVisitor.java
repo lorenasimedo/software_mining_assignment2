@@ -45,15 +45,11 @@ public class ThrowsKitchenSinkVisitor extends AntiPatternVisitor {
         }
 
         // Merging both to check if together they exceed the threshold
-        List<Type> mergedExceptions = new ArrayList<>();
+        List<Type> mergedExceptions;
+        mergedExceptions = exceptionTypesList;
         for (Object exception : thrownExceptions) {
             if (!mergedExceptions.contains(exception)) {
                 mergedExceptions.add((Type) exception);
-            }
-        }
-        for (Type exception : exceptionTypesList) {
-            if (!mergedExceptions.contains(exception)) {
-                mergedExceptions.add(exception);
             }
         }
         if (mergedExceptions.size() >= exceptionsThreshold){
