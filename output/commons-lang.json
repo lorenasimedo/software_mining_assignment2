@@ -1,0 +1,1161 @@
+{
+  "ThrowsKitchenSink": {
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-lang/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java": [
+      {
+        "Function_name": "testIsAssignable",
+        "Line_number": "465"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-lang/src/test/java/org/apache/commons/lang3/concurrent/UncheckedFutureTest.java": [
+      {
+        "Function_name": "get",
+        "Line_number": "67"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-lang/src/test/java/org/apache/commons/lang3/event/EventListenerSupportTest.java": [
+      {
+        "Function_name": "testSerialization",
+        "Line_number": "139"
+      },
+      {
+        "Function_name": "invoke",
+        "Line_number": "185"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-lang/src/main/java/org/apache/commons/lang3/reflect/MethodUtils.java": [
+      {
+        "Function_name": "invokeMethod",
+        "Line_number": "77"
+      },
+      {
+        "Function_name": "invokeMethod",
+        "Line_number": "101"
+      },
+      {
+        "Function_name": "invokeMethod",
+        "Line_number": "124"
+      },
+      {
+        "Function_name": "invokeMethod",
+        "Line_number": "153"
+      },
+      {
+        "Function_name": "invokeMethod",
+        "Line_number": "183"
+      },
+      {
+        "Function_name": "invokeMethod",
+        "Line_number": "231"
+      },
+      {
+        "Function_name": "invokeExactMethod",
+        "Line_number": "257"
+      },
+      {
+        "Function_name": "invokeExactMethod",
+        "Line_number": "281"
+      },
+      {
+        "Function_name": "invokeExactMethod",
+        "Line_number": "305"
+      },
+      {
+        "Function_name": "invokeExactStaticMethod",
+        "Line_number": "337"
+      },
+      {
+        "Function_name": "invokeStaticMethod",
+        "Line_number": "370"
+      },
+      {
+        "Function_name": "invokeStaticMethod",
+        "Line_number": "401"
+      },
+      {
+        "Function_name": "invokeExactStaticMethod",
+        "Line_number": "488"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-lang/src/main/java/org/apache/commons/lang3/reflect/ConstructorUtils.java": [
+      {
+        "Function_name": "invokeConstructor",
+        "Line_number": "59"
+      },
+      {
+        "Function_name": "invokeConstructor",
+        "Line_number": "85"
+      },
+      {
+        "Function_name": "invokeExactConstructor",
+        "Line_number": "122"
+      },
+      {
+        "Function_name": "invokeExactConstructor",
+        "Line_number": "148"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-lang/src/main/java/org/apache/commons/lang3/concurrent/AbstractFutureProxy.java": [
+      {
+        "Function_name": "get",
+        "Line_number": "54"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-lang/src/main/java/org/apache/commons/lang3/event/EventListenerSupport.java": [
+      {
+        "Function_name": "invoke",
+        "Line_number": "314"
+      }
+    ],
+    "Number_of_occurrences_in_the_project": 23
+  },
+  "DestructiveWrapping": {
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-lang/src/test/java/org/apache/commons/lang3/function/MethodInvokersFailableFunctionTest.java": [
+      {
+        "Function_name": "testFindAndInvoke",
+        "Line_number": "67"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-lang/src/test/java/org/apache/commons/lang3/time/FastDateParserSDFTest.java": [
+      {
+        "Function_name": "checkParse",
+        "Line_number": "123"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-lang/src/test/java/org/apache/commons/lang3/exception/ExceptionUtilsTest.java": [
+      {
+        "Function_name": "createExceptionWithCause",
+        "Line_number": "144"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-lang/src/main/java/org/apache/commons/lang3/SerializationUtils.java": [
+      {
+        "Function_name": "clone",
+        "Line_number": "151"
+      },
+      {
+        "Function_name": "deserialize",
+        "Line_number": "211"
+      },
+      {
+        "Function_name": "serialize",
+        "Line_number": "266"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-lang/src/main/java/org/apache/commons/lang3/ArrayUtils.java": [
+      {
+        "Function_name": "addAll",
+        "Line_number": "1122"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-lang/src/main/java/org/apache/commons/lang3/reflect/FieldUtils.java": [
+      {
+        "Function_name": "removeFinalModifier",
+        "Line_number": "733"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-lang/src/main/java/org/apache/commons/lang3/function/MethodInvokers.java": [
+      {
+        "Function_name": "unreflectUnchecked",
+        "Line_number": "248"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-lang/src/main/java/org/apache/commons/lang3/time/FormatCache.java": [
+      {
+        "Function_name": "getPatternForStyle",
+        "Line_number": "190"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-lang/src/main/java/org/apache/commons/lang3/concurrent/ConcurrentUtils.java": [
+      {
+        "Function_name": "initializeUnchecked",
+        "Line_number": "200"
+      },
+      {
+        "Function_name": "createIfAbsentUnchecked",
+        "Line_number": "298"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-lang/src/main/java/org/apache/commons/lang3/concurrent/BackgroundInitializer.java": [
+      {
+        "Function_name": "get",
+        "Line_number": "217"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-lang/src/main/java/org/apache/commons/lang3/concurrent/UncheckedFutureImpl.java": [
+      {
+        "Function_name": "get",
+        "Line_number": "45"
+      },
+      {
+        "Function_name": "get",
+        "Line_number": "47"
+      },
+      {
+        "Function_name": "get",
+        "Line_number": "56"
+      },
+      {
+        "Function_name": "get",
+        "Line_number": "58"
+      },
+      {
+        "Function_name": "get",
+        "Line_number": "60"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-lang/src/main/java/org/apache/commons/lang3/ObjectUtils.java": [
+      {
+        "Function_name": "clone",
+        "Line_number": "254"
+      },
+      {
+        "Function_name": "clone",
+        "Line_number": "258"
+      },
+      {
+        "Function_name": "clone",
+        "Line_number": "261"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-lang/src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java": [
+      {
+        "Function_name": "translate",
+        "Line_number": "70"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-lang/src/main/java/org/apache/commons/lang3/text/translate/UnicodeUnescaper.java": [
+      {
+        "Function_name": "translate",
+        "Line_number": "59"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-lang/src/main/java/org/apache/commons/lang3/AnnotationUtils.java": [
+      {
+        "Function_name": "hashCode",
+        "Line_number": "167"
+      },
+      {
+        "Function_name": "toString",
+        "Line_number": "190"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-lang/src/main/java/org/apache/commons/lang3/builder/ReflectionToStringBuilder.java": [
+      {
+        "Function_name": "appendFieldsIn",
+        "Line_number": "669"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-lang/src/main/java/org/apache/commons/lang3/builder/HashCodeBuilder.java": [
+      {
+        "Function_name": "reflectionAppend",
+        "Line_number": "200"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-lang/src/main/java/org/apache/commons/lang3/builder/CompareToBuilder.java": [
+      {
+        "Function_name": "reflectionAppend",
+        "Line_number": "333"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-lang/src/main/java/org/apache/commons/lang3/builder/ReflectionDiffBuilder.java": [
+      {
+        "Function_name": "appendFields",
+        "Line_number": "118"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-lang/src/main/java/org/apache/commons/lang3/builder/EqualsBuilder.java": [
+      {
+        "Function_name": "reflectionAppend",
+        "Line_number": "575"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-lang/src/main/java/org/apache/commons/lang3/event/EventUtils.java": [
+      {
+        "Function_name": "addEventListener",
+        "Line_number": "51"
+      },
+      {
+        "Function_name": "addEventListener",
+        "Line_number": "55"
+      },
+      {
+        "Function_name": "addEventListener",
+        "Line_number": "59"
+      }
+    ],
+    "Number_of_occurrences_in_the_project": 33
+  },
+  "ThrowsGeneric": {
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-lang/src/test/java/org/apache/commons/lang3/AnnotationUtilsTest.java": [
+      {
+        "Function_name": "setup",
+        "Line_number": "406"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-lang/src/test/java/org/apache/commons/lang3/ClassUtilsTest.java": [
+      {
+        "Function_name": "assertGetClassReturnsClass",
+        "Line_number": "96"
+      },
+      {
+        "Function_name": "testGetClassClassNotFound",
+        "Line_number": "1203"
+      },
+      {
+        "Function_name": "testGetClassInvalidArguments",
+        "Line_number": "1210"
+      },
+      {
+        "Function_name": "testGetClassWithArrayClasses",
+        "Line_number": "1234"
+      },
+      {
+        "Function_name": "testGetClassWithArrayClasses2D",
+        "Line_number": "1247"
+      },
+      {
+        "Function_name": "testGetPublicMethod",
+        "Line_number": "1291"
+      },
+      {
+        "Function_name": "testShowJavaBug",
+        "Line_number": "1440"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-lang/src/test/java/org/apache/commons/lang3/tuple/ImmutablePairTest.java": [
+      {
+        "Function_name": "testSerialization",
+        "Line_number": "197"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-lang/src/test/java/org/apache/commons/lang3/tuple/MutablePairTest.java": [
+      {
+        "Function_name": "testSerialization",
+        "Line_number": "141"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-lang/src/test/java/org/apache/commons/lang3/tuple/ImmutableTripleTest.java": [
+      {
+        "Function_name": "testSerialization",
+        "Line_number": "135"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-lang/src/test/java/org/apache/commons/lang3/tuple/MutableTripleTest.java": [
+      {
+        "Function_name": "testSerialization",
+        "Line_number": "109"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-lang/src/test/java/org/apache/commons/lang3/StringEscapeUtilsTest.java": [
+      {
+        "Function_name": "testEscapeXml",
+        "Line_number": "258"
+      },
+      {
+        "Function_name": "testEscapeCsvWriter",
+        "Line_number": "405"
+      },
+      {
+        "Function_name": "testUnescapeCsvWriter",
+        "Line_number": "443"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-lang/src/test/java/org/apache/commons/lang3/reflect/MethodUtilsTest.java": [
+      {
+        "Function_name": "testConstructor",
+        "Line_number": "329"
+      },
+      {
+        "Function_name": "testInvokeJavaVarargsOverloadingResolution",
+        "Line_number": "361"
+      },
+      {
+        "Function_name": "testInvokeMethod",
+        "Line_number": "409"
+      },
+      {
+        "Function_name": "testInvokeMethod_VarArgsWithNullValues",
+        "Line_number": "453"
+      },
+      {
+        "Function_name": "testInvokeMethod_VarArgsNotUniqueResolvable",
+        "Line_number": "461"
+      },
+      {
+        "Function_name": "testInvokeExactMethod",
+        "Line_number": "469"
+      },
+      {
+        "Function_name": "testInvokeStaticMethod",
+        "Line_number": "498"
+      },
+      {
+        "Function_name": "testInvokeExactStaticMethod",
+        "Line_number": "538"
+      },
+      {
+        "Function_name": "testGetAccessibleInterfaceMethod",
+        "Line_number": "567"
+      },
+      {
+        "Function_name": "testGetAccessibleMethodPrivateInterface",
+        "Line_number": "578"
+      },
+      {
+        "Function_name": "testGetAccessiblePublicMethod",
+        "Line_number": "596"
+      },
+      {
+        "Function_name": "testGetAccessibleMethodInaccessible",
+        "Line_number": "610"
+      },
+      {
+        "Function_name": "testVarArgsUnboxing",
+        "Line_number": "993"
+      },
+      {
+        "Function_name": "testInvokeMethodForceAccessNoArgs",
+        "Line_number": "1000"
+      },
+      {
+        "Function_name": "testInvokeMethodForceAccessWithArgs",
+        "Line_number": "1005"
+      },
+      {
+        "Function_name": "testDistance",
+        "Line_number": "1013"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-lang/src/test/java/org/apache/commons/lang3/reflect/ConstructorUtilsTest.java": [
+      {
+        "Function_name": "testConstructor",
+        "Line_number": "138"
+      },
+      {
+        "Function_name": "testInvokeConstructor",
+        "Line_number": "143"
+      },
+      {
+        "Function_name": "testInvokeExactConstructor",
+        "Line_number": "174"
+      },
+      {
+        "Function_name": "testGetAccessibleConstructor",
+        "Line_number": "201"
+      },
+      {
+        "Function_name": "testVarArgsUnboxing",
+        "Line_number": "289"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-lang/src/test/java/org/apache/commons/lang3/reflect/InheritanceUtilsTest.java": [
+      {
+        "Function_name": "testConstructor",
+        "Line_number": "34"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-lang/src/test/java/org/apache/commons/lang3/reflect/FieldUtilsTest.java": [
+      {
+        "Function_name": "testReadStaticField",
+        "Line_number": "344"
+      },
+      {
+        "Function_name": "testReadStaticFieldIllegalArgumentException2",
+        "Line_number": "354"
+      },
+      {
+        "Function_name": "testReadStaticFieldForceAccess",
+        "Line_number": "362"
+      },
+      {
+        "Function_name": "testReadNamedStaticField",
+        "Line_number": "380"
+      },
+      {
+        "Function_name": "testReadNamedStaticFieldForceAccess",
+        "Line_number": "418"
+      },
+      {
+        "Function_name": "testReadDeclaredNamedStaticField",
+        "Line_number": "456"
+      },
+      {
+        "Function_name": "testReadDeclaredNamedStaticFieldForceAccess",
+        "Line_number": "469"
+      },
+      {
+        "Function_name": "testReadField",
+        "Line_number": "481"
+      },
+      {
+        "Function_name": "testReadFieldForceAccess",
+        "Line_number": "506"
+      },
+      {
+        "Function_name": "testReadNamedField",
+        "Line_number": "535"
+      },
+      {
+        "Function_name": "testReadNamedFieldForceAccess",
+        "Line_number": "573"
+      },
+      {
+        "Function_name": "testReadDeclaredNamedField",
+        "Line_number": "609"
+      },
+      {
+        "Function_name": "testReadDeclaredNamedFieldForceAccess",
+        "Line_number": "645"
+      },
+      {
+        "Function_name": "testWriteStaticField",
+        "Line_number": "681"
+      },
+      {
+        "Function_name": "testWriteStaticFieldForceAccess",
+        "Line_number": "709"
+      },
+      {
+        "Function_name": "testWriteNamedStaticField",
+        "Line_number": "737"
+      },
+      {
+        "Function_name": "testWriteNamedStaticFieldForceAccess",
+        "Line_number": "764"
+      },
+      {
+        "Function_name": "testWriteDeclaredNamedStaticField",
+        "Line_number": "788"
+      },
+      {
+        "Function_name": "testWriteDeclaredNamedStaticFieldForceAccess",
+        "Line_number": "815"
+      },
+      {
+        "Function_name": "testWriteField",
+        "Line_number": "839"
+      },
+      {
+        "Function_name": "testWriteFieldForceAccess",
+        "Line_number": "855"
+      },
+      {
+        "Function_name": "testWriteNamedField",
+        "Line_number": "871"
+      },
+      {
+        "Function_name": "testWriteNamedFieldForceAccess",
+        "Line_number": "902"
+      },
+      {
+        "Function_name": "testWriteDeclaredNamedField",
+        "Line_number": "932"
+      },
+      {
+        "Function_name": "testWriteDeclaredNamedFieldForceAccess",
+        "Line_number": "966"
+      },
+      {
+        "Function_name": "testRemoveFinalModifier",
+        "Line_number": "1003"
+      },
+      {
+        "Function_name": "testRemoveFinalModifierWithAccess",
+        "Line_number": "1015"
+      },
+      {
+        "Function_name": "testRemoveFinalModifierWithoutAccess",
+        "Line_number": "1027"
+      },
+      {
+        "Function_name": "testRemoveFinalModifierAccessNotNeeded",
+        "Line_number": "1039"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-lang/src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java": [
+      {
+        "Function_name": "testContainsTypeVariables",
+        "Line_number": "253"
+      },
+      {
+        "Function_name": "testGenericArrayType",
+        "Line_number": "288"
+      },
+      {
+        "Function_name": "testGetArrayComponentType",
+        "Line_number": "298"
+      },
+      {
+        "Function_name": "testIsArrayGenericTypes",
+        "Line_number": "417"
+      },
+      {
+        "Function_name": "testLang1114",
+        "Line_number": "893"
+      },
+      {
+        "Function_name": "testLANG1190",
+        "Line_number": "902"
+      },
+      {
+        "Function_name": "testLANG1348",
+        "Line_number": "910"
+      },
+      {
+        "Function_name": "testParameterize",
+        "Line_number": "935"
+      },
+      {
+        "Function_name": "testParameterizeWithOwner",
+        "Line_number": "964"
+      },
+      {
+        "Function_name": "testWildcardType",
+        "Line_number": "1023"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-lang/src/test/java/org/apache/commons/lang3/function/MethodInvokersFailableBiConsumerTest.java": [
+      {
+        "Function_name": "testApply1ArgThrowsChecked",
+        "Line_number": "42"
+      },
+      {
+        "Function_name": "testApply1ArgThrowsUnchecked",
+        "Line_number": "47"
+      },
+      {
+        "Function_name": "testConstructorForNull",
+        "Line_number": "52"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-lang/src/test/java/org/apache/commons/lang3/function/MethodInvokersFailableFunctionTest.java": [
+      {
+        "Function_name": "testThrowsChecked",
+        "Line_number": "74"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-lang/src/test/java/org/apache/commons/lang3/function/MethodFixtures.java": [
+      {
+        "Function_name": "getStringChecked",
+        "Line_number": "170"
+      },
+      {
+        "Function_name": "setValue1",
+        "Line_number": "194"
+      },
+      {
+        "Function_name": "setValue1And2",
+        "Line_number": "198"
+      },
+      {
+        "Function_name": "setValueArray",
+        "Line_number": "215"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-lang/src/test/java/org/apache/commons/lang3/time/FastDateParserTest.java": [
+      {
+        "Function_name": "testLANG_831",
+        "Line_number": "340"
+      },
+      {
+        "Function_name": "testLANG_832",
+        "Line_number": "346"
+      },
+      {
+        "Function_name": "testParses",
+        "Line_number": "514"
+      },
+      {
+        "Function_name": "testParsesKnownJava16Ea25Failure",
+        "Line_number": "540"
+      },
+      {
+        "Function_name": "testSdfAndFdp",
+        "Line_number": "603"
+      },
+      {
+        "Function_name": "testSpecialCharacters",
+        "Line_number": "657"
+      },
+      {
+        "Function_name": "testTzParses",
+        "Line_number": "689"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-lang/src/test/java/org/apache/commons/lang3/time/DateUtilsRoundingTest.java": [
+      {
+        "Function_name": "setUp",
+        "Line_number": "195"
+      },
+      {
+        "Function_name": "testRoundAmPm",
+        "Line_number": "223"
+      },
+      {
+        "Function_name": "testRoundDate",
+        "Line_number": "256"
+      },
+      {
+        "Function_name": "testRoundDayOfMonth",
+        "Line_number": "284"
+      },
+      {
+        "Function_name": "testRoundHour",
+        "Line_number": "312"
+      },
+      {
+        "Function_name": "testRoundHourOfDay",
+        "Line_number": "340"
+      },
+      {
+        "Function_name": "testRoundMilliSecond",
+        "Line_number": "368"
+      },
+      {
+        "Function_name": "testRoundMinute",
+        "Line_number": "394"
+      },
+      {
+        "Function_name": "testRoundMonth",
+        "Line_number": "422"
+      },
+      {
+        "Function_name": "testRoundSecond",
+        "Line_number": "467"
+      },
+      {
+        "Function_name": "testRoundSemiMonth",
+        "Line_number": "495"
+      },
+      {
+        "Function_name": "testRoundYear",
+        "Line_number": "562"
+      },
+      {
+        "Function_name": "testTruncateAmPm",
+        "Line_number": "578"
+      },
+      {
+        "Function_name": "testTruncateDate",
+        "Line_number": "597"
+      },
+      {
+        "Function_name": "testTruncateDayOfMonth",
+        "Line_number": "610"
+      },
+      {
+        "Function_name": "testTruncateHour",
+        "Line_number": "623"
+      },
+      {
+        "Function_name": "testTruncateHourOfDay",
+        "Line_number": "636"
+      },
+      {
+        "Function_name": "testTruncateMinute",
+        "Line_number": "660"
+      },
+      {
+        "Function_name": "testTruncateMonth",
+        "Line_number": "673"
+      },
+      {
+        "Function_name": "testTruncateSecond",
+        "Line_number": "687"
+      },
+      {
+        "Function_name": "testTruncateSemiMonth",
+        "Line_number": "701"
+      },
+      {
+        "Function_name": "testTruncateYear",
+        "Line_number": "754"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-lang/src/test/java/org/apache/commons/lang3/time/DateUtilsTest.java": [
+      {
+        "Function_name": "setUp",
+        "Line_number": "173"
+      },
+      {
+        "Function_name": "testAddDays",
+        "Line_number": "231"
+      },
+      {
+        "Function_name": "testAddHours",
+        "Line_number": "251"
+      },
+      {
+        "Function_name": "testAddMilliseconds",
+        "Line_number": "271"
+      },
+      {
+        "Function_name": "testAddMinutes",
+        "Line_number": "291"
+      },
+      {
+        "Function_name": "testAddMonths",
+        "Line_number": "311"
+      },
+      {
+        "Function_name": "testAddSeconds",
+        "Line_number": "331"
+      },
+      {
+        "Function_name": "testAddWeeks",
+        "Line_number": "351"
+      },
+      {
+        "Function_name": "testAddYears",
+        "Line_number": "371"
+      },
+      {
+        "Function_name": "testCeil",
+        "Line_number": "396"
+      },
+      {
+        "Function_name": "testMonthIterator",
+        "Line_number": "849"
+      },
+      {
+        "Function_name": "testParseDate",
+        "Line_number": "882"
+      },
+      {
+        "Function_name": "testRound",
+        "Line_number": "935"
+      },
+      {
+        "Function_name": "testRoundLang346",
+        "Line_number": "1145"
+      },
+      {
+        "Function_name": "testSetDays",
+        "Line_number": "1202"
+      },
+      {
+        "Function_name": "testSetHours",
+        "Line_number": "1227"
+      },
+      {
+        "Function_name": "testSetMilliseconds",
+        "Line_number": "1252"
+      },
+      {
+        "Function_name": "testSetMinutes",
+        "Line_number": "1277"
+      },
+      {
+        "Function_name": "testSetMonths",
+        "Line_number": "1302"
+      },
+      {
+        "Function_name": "testSetSeconds",
+        "Line_number": "1332"
+      },
+      {
+        "Function_name": "testSetYears",
+        "Line_number": "1357"
+      },
+      {
+        "Function_name": "testTruncate",
+        "Line_number": "1410"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-lang/src/test/java/org/apache/commons/lang3/time/DateFormatUtilsTest.java": [
+      {
+        "Function_name": "testLANG1000",
+        "Line_number": "149"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-lang/src/test/java/org/apache/commons/lang3/time/Java15BugFastDateParserTest.java": [
+      {
+        "Function_name": "testLocales",
+        "Line_number": "69"
+      },
+      {
+        "Function_name": "testLocales_Long_AD",
+        "Line_number": "94"
+      },
+      {
+        "Function_name": "testLocales_Long_BC",
+        "Line_number": "101"
+      },
+      {
+        "Function_name": "testLocales_LongNoEra_AD",
+        "Line_number": "108"
+      },
+      {
+        "Function_name": "testLocales_LongNoEra_BC",
+        "Line_number": "115"
+      },
+      {
+        "Function_name": "testLocales_Short_AD",
+        "Line_number": "122"
+      },
+      {
+        "Function_name": "testLocales_Short_BC",
+        "Line_number": "129"
+      },
+      {
+        "Function_name": "testLocales_ShortNoEra_AD",
+        "Line_number": "136"
+      },
+      {
+        "Function_name": "testLocales_ShortNoEra_BC",
+        "Line_number": "143"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-lang/src/test/java/org/apache/commons/lang3/concurrent/ConcurrentUtilsTest.java": [
+      {
+        "Function_name": "testConstantFuture_Integer",
+        "Line_number": "341"
+      },
+      {
+        "Function_name": "testConstantFuture_null",
+        "Line_number": "359"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-lang/src/test/java/org/apache/commons/lang3/concurrent/locks/LockingVisitorsTest.java": [
+      {
+        "Function_name": "testReentrantReadWriteLockExclusive",
+        "Line_number": "88"
+      },
+      {
+        "Function_name": "testReentrantReadWriteLockNotExclusive",
+        "Line_number": "99"
+      },
+      {
+        "Function_name": "testStampedLockExclusive",
+        "Line_number": "122"
+      },
+      {
+        "Function_name": "testStampedLockNotExclusive",
+        "Line_number": "133"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-lang/src/test/java/org/apache/commons/lang3/concurrent/BackgroundInitializerTest.java": [
+      {
+        "Function_name": "initialize",
+        "Line_number": "299"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-lang/src/test/java/org/apache/commons/lang3/concurrent/MultiBackgroundInitializerTest.java": [
+      {
+        "Function_name": "initialize",
+        "Line_number": "388"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-lang/src/test/java/org/apache/commons/lang3/concurrent/MemoizerFunctionTest.java": [
+      {
+        "Function_name": "testDefaultBehaviourNotToRecalculateExecutionExceptions",
+        "Line_number": "41"
+      },
+      {
+        "Function_name": "testDoesNotRecalculateWhenSetToFalse",
+        "Line_number": "53"
+      },
+      {
+        "Function_name": "testDoesRecalculateWhenSetToTrue",
+        "Line_number": "65"
+      },
+      {
+        "Function_name": "testOnlyCallComputableOnceIfDoesNotThrowException",
+        "Line_number": "78"
+      },
+      {
+        "Function_name": "testWhenComputableThrowsError",
+        "Line_number": "89"
+      },
+      {
+        "Function_name": "testWhenComputableThrowsRuntimeException",
+        "Line_number": "100"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-lang/src/test/java/org/apache/commons/lang3/concurrent/CallableBackgroundInitializerTest.java": [
+      {
+        "Function_name": "testInitialize",
+        "Line_number": "82"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-lang/src/test/java/org/apache/commons/lang3/concurrent/MemoizerComputableTest.java": [
+      {
+        "Function_name": "testDefaultBehaviourNotToRecalculateExecutionExceptions",
+        "Line_number": "39"
+      },
+      {
+        "Function_name": "testDoesNotRecalculateWhenSetToFalse",
+        "Line_number": "51"
+      },
+      {
+        "Function_name": "testDoesRecalculateWhenSetToTrue",
+        "Line_number": "63"
+      },
+      {
+        "Function_name": "testOnlyCallComputableOnceIfDoesNotThrowException",
+        "Line_number": "76"
+      },
+      {
+        "Function_name": "testWhenComputableThrowsError",
+        "Line_number": "87"
+      },
+      {
+        "Function_name": "testWhenComputableThrowsRuntimeException",
+        "Line_number": "98"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-lang/src/test/java/org/apache/commons/lang3/SerializationUtilsTest.java": [
+      {
+        "Function_name": "testSerializeStream",
+        "Line_number": "100"
+      },
+      {
+        "Function_name": "testSerializeStreamNullObj",
+        "Line_number": "124"
+      },
+      {
+        "Function_name": "testDeserializeStream",
+        "Line_number": "167"
+      },
+      {
+        "Function_name": "testDeserializeStreamOfNull",
+        "Line_number": "200"
+      },
+      {
+        "Function_name": "testDeserializeStreamClassNotFound",
+        "Line_number": "224"
+      },
+      {
+        "Function_name": "testSerializeBytes",
+        "Line_number": "243"
+      },
+      {
+        "Function_name": "testSerializeBytesNull",
+        "Line_number": "264"
+      },
+      {
+        "Function_name": "testDeserializeBytes",
+        "Line_number": "280"
+      },
+      {
+        "Function_name": "testDeserializeBytesOfNull",
+        "Line_number": "300"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-lang/src/test/java/org/apache/commons/lang3/text/CompositeFormatTest.java": [
+      {
+        "Function_name": "testUsage",
+        "Line_number": "80"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-lang/src/test/java/org/apache/commons/lang3/text/StrBuilderTest.java": [
+      {
+        "Function_name": "testReadFromReader",
+        "Line_number": "106"
+      },
+      {
+        "Function_name": "testReadFromReaderAppendsToEnd",
+        "Line_number": "120"
+      },
+      {
+        "Function_name": "testReadFromCharBuffer",
+        "Line_number": "127"
+      },
+      {
+        "Function_name": "testReadFromCharBufferAppendsToEnd",
+        "Line_number": "141"
+      },
+      {
+        "Function_name": "testReadFromReadable",
+        "Line_number": "148"
+      },
+      {
+        "Function_name": "testReadFromReadableAppendsToEnd",
+        "Line_number": "162"
+      },
+      {
+        "Function_name": "testAsReader",
+        "Line_number": "1569"
+      },
+      {
+        "Function_name": "testAsWriter",
+        "Line_number": "1626"
+      },
+      {
+        "Function_name": "testAppendToWriter",
+        "Line_number": "1811"
+      },
+      {
+        "Function_name": "testAppendToStringBuilder",
+        "Line_number": "1822"
+      },
+      {
+        "Function_name": "testAppendToStringBuffer",
+        "Line_number": "1832"
+      },
+      {
+        "Function_name": "testAppendToCharBuffer",
+        "Line_number": "1842"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-lang/src/test/java/org/apache/commons/lang3/builder/EqualsBuilderTest.java": [
+      {
+        "Function_name": "testIsRegistered",
+        "Line_number": "1404"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-lang/src/test/java/org/apache/commons/lang3/exception/ContextedExceptionTest.java": [
+      {
+        "Function_name": "setUp",
+        "Line_number": "37"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-lang/src/test/java/org/apache/commons/lang3/exception/ContextedRuntimeExceptionTest.java": [
+      {
+        "Function_name": "setUp",
+        "Line_number": "37"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-lang/src/test/java/org/apache/commons/lang3/exception/AbstractExceptionContextTest.java": [
+      {
+        "Function_name": "setUp",
+        "Line_number": "56"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-lang/src/test/java/org/apache/commons/lang3/exception/DefaultExceptionContextTest.java": [
+      {
+        "Function_name": "setUp",
+        "Line_number": "29"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-lang/src/test/java/org/apache/commons/lang3/ThreadUtilsTest.java": [
+      {
+        "Function_name": "testComplexThreadGroups",
+        "Line_number": "92"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-lang/src/main/java/org/apache/commons/lang3/concurrent/BackgroundInitializer.java": [
+      {
+        "Function_name": "initialize",
+        "Line_number": "275"
+      },
+      {
+        "Function_name": "call",
+        "Line_number": "323"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-lang/src/main/java/org/apache/commons/lang3/concurrent/MultiBackgroundInitializer.java": [
+      {
+        "Function_name": "initialize",
+        "Line_number": "171"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-lang/src/main/java/org/apache/commons/lang3/concurrent/CallableBackgroundInitializer.java": [
+      {
+        "Function_name": "initialize",
+        "Line_number": "108"
+      }
+    ],
+    "Number_of_occurrences_in_the_project": 198
+  }
+}

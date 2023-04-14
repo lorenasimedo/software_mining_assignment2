@@ -2,16 +2,11 @@ package ca.concordia.soen;
 
 import org.eclipse.jdt.core.dom.*;
 
-import java.util.ArrayList;
 import java.util.List;
 
-public class ThrowsGenericVisitor  extends ASTVisitor {
-    private final CompilationUnit compilationUnit;
-    int AntiPatternOccurrencesCount = 0;
-    List<AntiPatternOccurrence> ThrowsGenericOcurrencesList = new ArrayList<>();
-
+public class ThrowsGenericVisitor extends AntiPatternVisitor {
     public ThrowsGenericVisitor(CompilationUnit compilationUnit) {
-        this.compilationUnit = compilationUnit;
+        super(compilationUnit);
     }
 
     @Override
@@ -25,10 +20,10 @@ public class ThrowsGenericVisitor  extends ASTVisitor {
         }
         else if (methodDeclarationThrownExceptions.size() == 0){
             if(hasTryCatch(body)){
-                for(Statement statement: (List<Statement>) body.statements()){
-                    if (statement.getNodeType() == ASTNode.TRY_STATEMENT) {
-                        TryStatement tryStatement = (TryStatement) statement;
-                        List<CatchClause> catchClauses = tryStatement.catchClauses();
+                for(Object statement: body.statements()){
+                    if (statement instanceof TryStatement tryStatement) {
+                        List<CatchClause> catchClauses;
+                        catchClauses = tryStatement.catchClauses();
                         checkCatchClausesForThrowsGeneric(catchClauses, node);
                     }
                 }
@@ -52,6 +47,7 @@ public class ThrowsGenericVisitor  extends ASTVisitor {
             }
         } catch (NullPointerException e) {
             e.printStackTrace();
+<<<<<<< HEAD
         }
     }
 
@@ -72,19 +68,23 @@ public class ThrowsGenericVisitor  extends ASTVisitor {
             for (Statement blockStatement : blockStatements) {
                 processStatement(blockStatement, exceptionName, node);
             }
+=======
+>>>>>>> main
         }
     }
     private void antiPatternDetect(MethodDeclaration node, int startPosition) {
         int startLine = compilationUnit.getLineNumber(startPosition);
-        AntiPatternOccurrencesCount +=1;
+        antiPatternOccurrencesCount +=1;
         AntiPatternOccurrence ThrowsGenericOccurrence = new AntiPatternOccurrence(node.getName().toString(), Integer.toString(startLine));
-        ThrowsGenericOcurrencesList.add(ThrowsGenericOccurrence);
+        antiPatternOcurrencesList.add(ThrowsGenericOccurrence);
     }
 
     public static boolean hasTryCatch(Block block) {
-        for (Object statement : block.statements()) {
-            if (statement instanceof TryStatement) {
-                return true;
+        if (block != null){
+            for (Object statement : block.statements()) {
+                if (statement instanceof TryStatement) {
+                    return true;
+                }
             }
         }
         return false;

@@ -51,7 +51,10 @@ public class FileUtil {
         try {
             File folder = new File(folder_name);
             if (!folder.exists()) {
-                folder.mkdirs();
+                boolean mkdir_result = folder.mkdirs();
+                if (!mkdir_result) {
+                    throw new IOException("Output directory creation failed.");
+                }
             }
 
             FileWriter writer = new FileWriter(folder + File.separator + filename +".json");
@@ -59,7 +62,7 @@ public class FileUtil {
             gson.toJson(Json, writer);
             writer.close();
         } catch (IOException e) {
-            System.out.println(e);
+            e.printStackTrace();
         }
 
     }

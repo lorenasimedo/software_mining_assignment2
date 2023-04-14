@@ -1,0 +1,1645 @@
+{
+  "ThrowsKitchenSink": {
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/main/java/org/junit/internal/runners/TestMethod.java": [
+      {
+        "Function_name": "invoke",
+        "Line_number": "67"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/main/java/org/junit/rules/TemporaryFolder.java": [
+      {
+        "Function_name": "createTemporaryFolderWithNioApi",
+        "Line_number": "257"
+      }
+    ],
+    "Number_of_occurrences_in_the_project": 2
+  },
+  "DestructiveWrapping": {
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/test/java/junit/tests/SampleJUnit3Tests.java": [
+      {
+        "Function_name": "doThrowExceptionWithCause",
+        "Line_number": "43"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/test/java/org/junit/tests/SampleJUnit4Tests.java": [
+      {
+        "Function_name": "doThrowExceptionWithCause",
+        "Line_number": "128"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/test/java/org/junit/internal/StackTracesTest.java": [
+      {
+        "Function_name": "runTest",
+        "Line_number": "307"
+      },
+      {
+        "Function_name": "runTest",
+        "Line_number": "309"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/test/java/org/junit/rules/TempFolderRuleTest.java": [
+      {
+        "Function_name": "getPosixFilePermissions",
+        "Line_number": "216"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/main/java/org/junit/experimental/theories/internal/AllMembersSupplier.java": [
+      {
+        "Function_name": "getValue",
+        "Line_number": "36"
+      },
+      {
+        "Function_name": "getValue",
+        "Line_number": "39"
+      },
+      {
+        "Function_name": "getValue",
+        "Line_number": "45"
+      },
+      {
+        "Function_name": "getStaticFieldValue",
+        "Line_number": "157"
+      },
+      {
+        "Function_name": "getStaticFieldValue",
+        "Line_number": "160"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/main/java/org/junit/experimental/max/MaxHistory.java": [
+      {
+        "Function_name": "readHistory",
+        "Line_number": "60"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/main/java/org/junit/experimental/results/FailureList.java": [
+      {
+        "Function_name": "result",
+        "Line_number": "23"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/main/java/org/junit/experimental/categories/CategoryFilterFactory.java": [
+      {
+        "Function_name": "createFilter",
+        "Line_number": "25"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/main/java/org/junit/experimental/categories/Categories.java": [
+      {
+        "Function_name": "Categories",
+        "Line_number": "318"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/main/java/org/junit/validator/AnnotationValidatorFactory.java": [
+      {
+        "Function_name": "createAnnotationValidator",
+        "Line_number": "35"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/main/java/org/junit/runner/manipulation/Ordering.java": [
+      {
+        "Function_name": "definedBy",
+        "Line_number": "70"
+      },
+      {
+        "Function_name": "definedBy",
+        "Line_number": "75"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/main/java/org/junit/runner/FilterFactories.java": [
+      {
+        "Function_name": "createFilterFactory",
+        "Line_number": "67"
+      },
+      {
+        "Function_name": "createFilterFactory",
+        "Line_number": "78"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/main/java/org/junit/internal/builders/AnnotatedBuilder.java": [
+      {
+        "Function_name": "buildRunner",
+        "Line_number": "111"
+      },
+      {
+        "Function_name": "buildRunner",
+        "Line_number": "111"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/main/java/org/junit/internal/ComparisonCriteria.java": [
+      {
+        "Function_name": "arrayEquals",
+        "Line_number": "72"
+      },
+      {
+        "Function_name": "arrayEquals",
+        "Line_number": "78"
+      },
+      {
+        "Function_name": "arrayEquals",
+        "Line_number": "89"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/main/java/org/junit/internal/runners/MethodRoadie.java": [
+      {
+        "Function_name": "runBeforesThenTestThenAfters",
+        "Line_number": "100"
+      },
+      {
+        "Function_name": "runBefores",
+        "Line_number": "139"
+      },
+      {
+        "Function_name": "runBefores",
+        "Line_number": "142"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/main/java/org/junit/internal/runners/statements/ExpectException.java": [
+      {
+        "Function_name": "evaluate",
+        "Line_number": "30"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/main/java/org/junit/internal/runners/ClassRoadie.java": [
+      {
+        "Function_name": "runBefores",
+        "Line_number": "62"
+      },
+      {
+        "Function_name": "runBefores",
+        "Line_number": "65"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/main/java/org/junit/rules/Timeout.java": [
+      {
+        "Function_name": "apply",
+        "Line_number": "159"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/main/java/org/junit/rules/TemporaryFolder.java": [
+      {
+        "Function_name": "createTemporaryFolderIn",
+        "Line_number": "253"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/main/java/org/junit/runners/parameterized/BlockJUnit4ClassRunnerWithParameters.java": [
+      {
+        "Function_name": "createTestUsingFieldInjection",
+        "Line_number": "84"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/main/java/org/junit/runners/Suite.java": [
+      {
+        "Function_name": "emptySuite",
+        "Line_number": "35"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/main/java/org/junit/runners/model/TestClass.java": [
+      {
+        "Function_name": "collectAnnotatedFieldValues",
+        "Line_number": "254"
+      },
+      {
+        "Function_name": "collectAnnotatedMethodValues",
+        "Line_number": "296"
+      }
+    ],
+    "Number_of_occurrences_in_the_project": 36
+  },
+  "ThrowsGeneric": {
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/test/java/junit/tests/SampleJUnit3Tests.java": [
+      {
+        "Function_name": "setUp",
+        "Line_number": "20"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/test/java/junit/tests/framework/AssertionFailedErrorTest.java": [
+      {
+        "Function_name": "testCreateErrorWithoutMessage",
+        "Line_number": "9"
+      },
+      {
+        "Function_name": "testCreateErrorWithMessage",
+        "Line_number": "14"
+      },
+      {
+        "Function_name": "testCreateErrorWithoutMessageInsteadOfNull",
+        "Line_number": "19"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/test/java/junit/tests/framework/TestCaseTest.java": [
+      {
+        "Function_name": "tearDown",
+        "Line_number": "158"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/test/java/junit/tests/runner/TextFeedbackTest.java": [
+      {
+        "Function_name": "runTest",
+        "Line_number": "109"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/test/java/junit/tests/runner/ResultTest.java": [
+      {
+        "Function_name": "testRunFailureResultCanBeSerialised",
+        "Line_number": "23"
+      },
+      {
+        "Function_name": "testRunFailureResultCanBeReserialised_v4_12",
+        "Line_number": "29"
+      },
+      {
+        "Function_name": "testRunAssumptionFailedResultCanBeSerialised",
+        "Line_number": "35"
+      },
+      {
+        "Function_name": "testRunAssumptionFailedResultCanBeReserialised_v4_12",
+        "Line_number": "41"
+      },
+      {
+        "Function_name": "testRunAssumptionFailedResultCanBeReserialised_v4_13",
+        "Line_number": "47"
+      },
+      {
+        "Function_name": "testRunSuccessResultCanBeSerialised",
+        "Line_number": "53"
+      },
+      {
+        "Function_name": "testRunSuccessResultCanBeReserialised_v4_12",
+        "Line_number": "59"
+      },
+      {
+        "Function_name": "testRunSuccessResultCanBeReserialised_v4_13",
+        "Line_number": "65"
+      },
+      {
+        "Function_name": "assumptionFailed",
+        "Line_number": "101"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/test/java/junit/tests/runner/TextRunnerSingleMethodTest.java": [
+      {
+        "Function_name": "testSingle",
+        "Line_number": "28"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/test/java/junit/tests/runner/TextRunnerTest.java": [
+      {
+        "Function_name": "testFailure",
+        "Line_number": "15"
+      },
+      {
+        "Function_name": "testSuccess",
+        "Line_number": "19"
+      },
+      {
+        "Function_name": "testError",
+        "Line_number": "23"
+      },
+      {
+        "Function_name": "execTest",
+        "Line_number": "27"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/test/java/org/junit/experimental/categories/CategoryFilterFactoryTest.java": [
+      {
+        "Function_name": "shouldCreateFilter",
+        "Line_number": "28"
+      },
+      {
+        "Function_name": "shouldThrowException",
+        "Line_number": "38"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/test/java/org/junit/runner/JUnitCommandLineParseResultTest.java": [
+      {
+        "Function_name": "shouldStopParsingOptionsUponDoubleHyphenArg",
+        "Line_number": "23"
+      },
+      {
+        "Function_name": "shouldParseFilterArgWithEqualsSyntax",
+        "Line_number": "31"
+      },
+      {
+        "Function_name": "shouldParseFilterArgInWhichValueIsASeparateArg",
+        "Line_number": "51"
+      },
+      {
+        "Function_name": "shouldStopParsingOptionsUponNonOption",
+        "Line_number": "61"
+      },
+      {
+        "Function_name": "shouldCreateFailureUponUnknownOption",
+        "Line_number": "70"
+      },
+      {
+        "Function_name": "shouldCreateFailureUponUncreatedFilter",
+        "Line_number": "83"
+      },
+      {
+        "Function_name": "shouldCreateFailureUponUnfoundFilterFactory",
+        "Line_number": "95"
+      },
+      {
+        "Function_name": "shouldCreateFailureUponUnknownTestClass",
+        "Line_number": "120"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/test/java/org/junit/runner/notification/ConcurrentRunNotifierTest.java": [
+      {
+        "Function_name": "testStarted",
+        "Line_number": "35"
+      },
+      {
+        "Function_name": "realUsage",
+        "Line_number": "41"
+      },
+      {
+        "Function_name": "testStarted",
+        "Line_number": "75"
+      },
+      {
+        "Function_name": "testFailure",
+        "Line_number": "82"
+      },
+      {
+        "Function_name": "test",
+        "Line_number": "91"
+      },
+      {
+        "Function_name": "call",
+        "Line_number": "110"
+      },
+      {
+        "Function_name": "reportConcurrentFailuresAfterAddListener",
+        "Line_number": "148"
+      },
+      {
+        "Function_name": "reportConcurrentFailuresAfterAddFirstListener",
+        "Line_number": "162"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/test/java/org/junit/runner/notification/RunNotifierTest.java": [
+      {
+        "Function_name": "testRunFinished",
+        "Line_number": "38"
+      },
+      {
+        "Function_name": "testFailure",
+        "Line_number": "43"
+      },
+      {
+        "Function_name": "testFailure",
+        "Line_number": "113"
+      },
+      {
+        "Function_name": "testStarted",
+        "Line_number": "122"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/test/java/org/junit/runner/FilterFactoriesTest.java": [
+      {
+        "Function_name": "shouldCreateFilterWithArguments",
+        "Line_number": "29"
+      },
+      {
+        "Function_name": "shouldCreateFilterWithNoArguments",
+        "Line_number": "38"
+      },
+      {
+        "Function_name": "shouldPassOnDescriptionToFilterFactory",
+        "Line_number": "46"
+      },
+      {
+        "Function_name": "shouldCreateFilter",
+        "Line_number": "60"
+      },
+      {
+        "Function_name": "shouldThrowExceptionIfNotFilterFactory",
+        "Line_number": "71"
+      },
+      {
+        "Function_name": "shouldThrowExceptionIfNotInstantiable",
+        "Line_number": "78"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/test/java/org/junit/tests/running/methods/TimeoutTest.java": [
+      {
+        "Function_name": "failureWithTimeout",
+        "Line_number": "37"
+      },
+      {
+        "Function_name": "failureWithTimeoutRunTimeException",
+        "Line_number": "53"
+      },
+      {
+        "Function_name": "successWithTimeout",
+        "Line_number": "68"
+      },
+      {
+        "Function_name": "timeoutFailure",
+        "Line_number": "84"
+      },
+      {
+        "Function_name": "infiniteLoop",
+        "Line_number": "109"
+      },
+      {
+        "Function_name": "infiniteLoopRunsForApproximatelyLengthOfTimeout",
+        "Line_number": "131"
+      },
+      {
+        "Function_name": "stalledThreadAppearsInStackTrace",
+        "Line_number": "157"
+      },
+      {
+        "Function_name": "failure",
+        "Line_number": "185"
+      },
+      {
+        "Function_name": "failure",
+        "Line_number": "208"
+      },
+      {
+        "Function_name": "failure",
+        "Line_number": "221"
+      },
+      {
+        "Function_name": "timeoutFailureMultithreaded",
+        "Line_number": "227"
+      },
+      {
+        "Function_name": "timeoutFailureMultithreadedStuckInMain",
+        "Line_number": "241"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/test/java/org/junit/tests/running/methods/ParameterizedTestMethodTest.java": [
+      {
+        "Function_name": "testFailures",
+        "Line_number": "180"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/test/java/org/junit/tests/running/methods/AnnotationTest.java": [
+      {
+        "Function_name": "testAnnotatedMethod",
+        "Line_number": "44"
+      },
+      {
+        "Function_name": "testAnnotatedMethodWithFutureProofExplicitRunner",
+        "Line_number": "58"
+      },
+      {
+        "Function_name": "testSetup",
+        "Line_number": "75"
+      },
+      {
+        "Function_name": "testTeardown",
+        "Line_number": "92"
+      },
+      {
+        "Function_name": "error",
+        "Line_number": "100"
+      },
+      {
+        "Function_name": "testRunFailure",
+        "Line_number": "105"
+      },
+      {
+        "Function_name": "testSetupFailure",
+        "Line_number": "125"
+      },
+      {
+        "Function_name": "testTeardownFailure",
+        "Line_number": "145"
+      },
+      {
+        "Function_name": "test",
+        "Line_number": "160"
+      },
+      {
+        "Function_name": "testTestAndTeardownFailure",
+        "Line_number": "165"
+      },
+      {
+        "Function_name": "test",
+        "Line_number": "180"
+      },
+      {
+        "Function_name": "testTeardownAfterFailure",
+        "Line_number": "185"
+      },
+      {
+        "Function_name": "testTwoTests",
+        "Line_number": "208"
+      },
+      {
+        "Function_name": "testOldTest",
+        "Line_number": "223"
+      },
+      {
+        "Function_name": "testOldSuiteTest",
+        "Line_number": "235"
+      },
+      {
+        "Function_name": "testException",
+        "Line_number": "249"
+      },
+      {
+        "Function_name": "testExceptionNotThrown",
+        "Line_number": "261"
+      },
+      {
+        "Function_name": "testOneTimeSetup",
+        "Line_number": "283"
+      },
+      {
+        "Function_name": "testOneTimeTeardown",
+        "Line_number": "305"
+      },
+      {
+        "Function_name": "testOrder",
+        "Line_number": "341"
+      },
+      {
+        "Function_name": "testNonStaticOneTimeSetup",
+        "Line_number": "358"
+      },
+      {
+        "Function_name": "before",
+        "Line_number": "366"
+      },
+      {
+        "Function_name": "testErrorInBeforeClass",
+        "Line_number": "376"
+      },
+      {
+        "Function_name": "after",
+        "Line_number": "393"
+      },
+      {
+        "Function_name": "testErrorInAfterClass",
+        "Line_number": "398"
+      },
+      {
+        "Function_name": "testOrderingOfInheritance",
+        "Line_number": "455"
+      },
+      {
+        "Function_name": "testShadowing",
+        "Line_number": "538"
+      },
+      {
+        "Function_name": "testStaticMethodsCanBeTreatedAsShadowed",
+        "Line_number": "589"
+      },
+      {
+        "Function_name": "testFieldsShadowFieldsFromParent",
+        "Line_number": "636"
+      },
+      {
+        "Function_name": "testStaticFieldsCanBeTreatedAsShadowed",
+        "Line_number": "683"
+      },
+      {
+        "Function_name": "testTestInheritance",
+        "Line_number": "713"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/test/java/org/junit/tests/running/methods/TestMethodTest.java": [
+      {
+        "Function_name": "testFailures",
+        "Line_number": "136"
+      },
+      {
+        "Function_name": "validateInheritedMethods",
+        "Line_number": "155"
+      },
+      {
+        "Function_name": "dontValidateShadowedMethods",
+        "Line_number": "168"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/test/java/org/junit/tests/running/methods/ExpectedTest.java": [
+      {
+        "Function_name": "expected",
+        "Line_number": "17"
+      },
+      {
+        "Function_name": "expected",
+        "Line_number": "31"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/test/java/org/junit/tests/running/core/JUnitCoreReturnsCorrectExitCodeTest.java": [
+      {
+        "Function_name": "failureCausesExitCodeOf1",
+        "Line_number": "19"
+      },
+      {
+        "Function_name": "missingClassCausesExitCodeOf1",
+        "Line_number": "24"
+      },
+      {
+        "Function_name": "successCausesExitCodeOf0",
+        "Line_number": "35"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/test/java/org/junit/tests/running/core/SystemExitTest.java": [
+      {
+        "Function_name": "failureCausesExitCodeOf1",
+        "Line_number": "22"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/test/java/org/junit/tests/running/classes/BlockJUnit4ClassRunnerTest.java": [
+      {
+        "Function_name": "detectNonStaticEnclosedClass",
+        "Line_number": "24"
+      },
+      {
+        "Function_name": "testStarted",
+        "Line_number": "56"
+      },
+      {
+        "Function_name": "testFinished",
+        "Line_number": "61"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/test/java/org/junit/tests/running/classes/ParentRunnerFilteringTest.java": [
+      {
+        "Function_name": "test1",
+        "Line_number": "76"
+      },
+      {
+        "Function_name": "testSuiteFiltering",
+        "Line_number": "87"
+      },
+      {
+        "Function_name": "testSuiteFilteringWithUnmodifiableChildList",
+        "Line_number": "118"
+      },
+      {
+        "Function_name": "testRunSuiteFiltering",
+        "Line_number": "131"
+      },
+      {
+        "Function_name": "testCountClassFiltering",
+        "Line_number": "139"
+      },
+      {
+        "Function_name": "testCountSuiteFiltering",
+        "Line_number": "153"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/test/java/org/junit/tests/running/classes/EnclosedTest.java": [
+      {
+        "Function_name": "enclosedRunnerPlansConcreteEnclosedClasses",
+        "Line_number": "39"
+      },
+      {
+        "Function_name": "enclosedRunnerRunsConcreteEnclosedClasses",
+        "Line_number": "45"
+      },
+      {
+        "Function_name": "enclosedRunnerIsNamedForEnclosingClass",
+        "Line_number": "51"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/test/java/org/junit/tests/running/classes/SuiteTest.java": [
+      {
+        "Function_name": "suiteTestCountIsCorrect",
+        "Line_number": "77"
+      },
+      {
+        "Function_name": "suiteShouldBeOKwithNonDefaultConstructor",
+        "Line_number": "205"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/test/java/org/junit/tests/running/classes/parent/TestWithClassRule.java": [
+      {
+        "Function_name": "testClassRuleExecuted",
+        "Line_number": "22"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/test/java/org/junit/tests/running/classes/parent/ParentRunnerClassLoaderTest.java": [
+      {
+        "Function_name": "testClassRuleAccessToClassInAnotherClassLoader",
+        "Line_number": "19"
+      },
+      {
+        "Function_name": "testDescriptionContainCorrectTestClass",
+        "Line_number": "35"
+      },
+      {
+        "Function_name": "testBackwardCompatibilityWithOverrideGetName",
+        "Line_number": "48"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/test/java/org/junit/tests/running/classes/ParentRunnerTest.java": [
+      {
+        "Function_name": "testMultipleFilters",
+        "Line_number": "68"
+      },
+      {
+        "Function_name": "test1",
+        "Line_number": "112"
+      },
+      {
+        "Function_name": "test2",
+        "Line_number": "116"
+      },
+      {
+        "Function_name": "test3",
+        "Line_number": "120"
+      },
+      {
+        "Function_name": "testSuiteStarted",
+        "Line_number": "268"
+      },
+      {
+        "Function_name": "testSuiteFinished",
+        "Line_number": "273"
+      },
+      {
+        "Function_name": "testStarted",
+        "Line_number": "278"
+      },
+      {
+        "Function_name": "testFinished",
+        "Line_number": "283"
+      },
+      {
+        "Function_name": "testFailure",
+        "Line_number": "288"
+      },
+      {
+        "Function_name": "testIgnored",
+        "Line_number": "306"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/test/java/org/junit/tests/running/classes/ParameterizedTestTest.java": [
+      {
+        "Function_name": "countBeforeRun",
+        "Line_number": "74"
+      },
+      {
+        "Function_name": "plansNamedCorrectly",
+        "Line_number": "80"
+      },
+      {
+        "Function_name": "countsFailures",
+        "Line_number": "104"
+      },
+      {
+        "Function_name": "failuresAddedForBadTestMethod",
+        "Line_number": "522"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/test/java/org/junit/tests/running/classes/ClassLevelMethodsWithIgnoredTestsTest.java": [
+      {
+        "Function_name": "test",
+        "Line_number": "39"
+      },
+      {
+        "Function_name": "test",
+        "Line_number": "58"
+      },
+      {
+        "Function_name": "test",
+        "Line_number": "73"
+      },
+      {
+        "Function_name": "test",
+        "Line_number": "100"
+      },
+      {
+        "Function_name": "test",
+        "Line_number": "134"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/test/java/org/junit/tests/experimental/theories/ParameterSignatureTest.java": [
+      {
+        "Function_name": "primitiveTypesShouldBeAcceptedAsWrapperTypes",
+        "Line_number": "67"
+      },
+      {
+        "Function_name": "primitiveTypesShouldBeAcceptedAsWrapperTypeAssignables",
+        "Line_number": "76"
+      },
+      {
+        "Function_name": "wrapperTypesShouldBeAcceptedAsPrimitiveTypes",
+        "Line_number": "85"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/test/java/org/junit/tests/experimental/theories/runner/WithParameterSupplier.java": [
+      {
+        "Function_name": "shouldRejectSuppliersWithUnknownConstructors",
+        "Line_number": "107"
+      },
+      {
+        "Function_name": "shouldRejectSuppliersWithTwoConstructors",
+        "Line_number": "134"
+      },
+      {
+        "Function_name": "shouldAcceptSuppliersWithTestClassConstructor",
+        "Line_number": "161"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/test/java/org/junit/tests/experimental/theories/runner/UnsuccessfulWithDataPointFields.java": [
+      {
+        "Function_name": "theoryClassMethodsShowUp",
+        "Line_number": "32"
+      },
+      {
+        "Function_name": "theoryAnnotationsAreRetained",
+        "Line_number": "38"
+      },
+      {
+        "Function_name": "canRunTheories",
+        "Line_number": "44"
+      },
+      {
+        "Function_name": "reportBadParams",
+        "Line_number": "61"
+      },
+      {
+        "Function_name": "nullsUsedUnlessProhibited",
+        "Line_number": "81"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/test/java/org/junit/tests/experimental/theories/runner/WithOnlyTestAnnotations.java": [
+      {
+        "Function_name": "honorExpected",
+        "Line_number": "28"
+      },
+      {
+        "Function_name": "honorExpectedPassing",
+        "Line_number": "41"
+      },
+      {
+        "Function_name": "honorTimeout",
+        "Line_number": "60"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/test/java/org/junit/tests/experimental/theories/runner/WithExtendedParameterSources.java": [
+      {
+        "Function_name": "testedOnLimitsParameters",
+        "Line_number": "31"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/test/java/org/junit/tests/experimental/theories/runner/WhenNoParametersMatch.java": [
+      {
+        "Function_name": "showFailedAssumptionsWhenNoParametersFound",
+        "Line_number": "41"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/test/java/org/junit/tests/experimental/theories/runner/TypeMatchingBetweenMultiDataPointsMethod.java": [
+      {
+        "Function_name": "pickUpMultiPointDataPointMethods",
+        "Line_number": "54"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/test/java/org/junit/tests/experimental/theories/internal/SpecificDataPointsSupplierTest.java": [
+      {
+        "Function_name": "signature",
+        "Line_number": "131"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/test/java/org/junit/tests/experimental/theories/TestedOnSupplierTest.java": [
+      {
+        "Function_name": "descriptionStatesParameterName",
+        "Line_number": "21"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/test/java/org/junit/tests/experimental/max/DescriptionTest.java": [
+      {
+        "Function_name": "parseClassAndMethodNoAnnotations",
+        "Line_number": "40"
+      },
+      {
+        "Function_name": "parseClassAndMethodWithAnnotations",
+        "Line_number": "49"
+      },
+      {
+        "Function_name": "parseClassNameAndMethodUniqueId",
+        "Line_number": "61"
+      },
+      {
+        "Function_name": "sameNamesButDifferentUniqueIdAreNotEqual",
+        "Line_number": "70"
+      },
+      {
+        "Function_name": "usesPassedInClassObject",
+        "Line_number": "76"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/test/java/org/junit/tests/experimental/max/MaxStarterTest.java": [
+      {
+        "Function_name": "listenersAreCalledCorrectlyInTheFaceOfFailures",
+        "Line_number": "161"
+      },
+      {
+        "Function_name": "testRunFinished",
+        "Line_number": "166"
+      },
+      {
+        "Function_name": "testsAreOnlyIncludedOnceWhenExpandingForSorting",
+        "Line_number": "176"
+      },
+      {
+        "Function_name": "junit3TestsAreRunOnce",
+        "Line_number": "190"
+      },
+      {
+        "Function_name": "filterSingleMethodFromOldTestClass",
+        "Line_number": "197"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/test/java/org/junit/tests/listening/TestListenerTest.java": [
+      {
+        "Function_name": "testRunStarted",
+        "Line_number": "19"
+      },
+      {
+        "Function_name": "testRunStarted",
+        "Line_number": "39"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/test/java/org/junit/tests/listening/ListenerTest.java": [
+      {
+        "Function_name": "testRunStarted",
+        "Line_number": "25"
+      },
+      {
+        "Function_name": "testRunStarted",
+        "Line_number": "31"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/test/java/org/junit/tests/listening/UserStopTest.java": [
+      {
+        "Function_name": "stopClassRunner",
+        "Line_number": "30"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/test/java/org/junit/tests/listening/TextListenerTest.java": [
+      {
+        "Function_name": "testSuccess",
+        "Line_number": "36"
+      },
+      {
+        "Function_name": "error",
+        "Line_number": "44"
+      },
+      {
+        "Function_name": "testError",
+        "Line_number": "49"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/test/java/org/junit/tests/manipulation/SingleMethodTest.java": [
+      {
+        "Function_name": "oneTimeSetup",
+        "Line_number": "46"
+      },
+      {
+        "Function_name": "parameterizedFilterToSingleMethod",
+        "Line_number": "71"
+      },
+      {
+        "Function_name": "parameterizedBeforeClass",
+        "Line_number": "102"
+      },
+      {
+        "Function_name": "filteringAffectsPlan",
+        "Line_number": "109"
+      },
+      {
+        "Function_name": "nonexistentMethodCreatesFailure",
+        "Line_number": "115"
+      },
+      {
+        "Function_name": "eliminateUnnecessaryTreeBranches",
+        "Line_number": "163"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/test/java/org/junit/tests/SampleJUnit4Tests.java": [
+      {
+        "Function_name": "alwaysThrows",
+        "Line_number": "107"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/test/java/org/junit/tests/assertion/MultipleFailureExceptionTest.java": [
+      {
+        "Function_name": "assertEmptyDoesNotThrowForEmptyList",
+        "Line_number": "32"
+      },
+      {
+        "Function_name": "assertEmptyRethrowsSingleRuntimeException",
+        "Line_number": "37"
+      },
+      {
+        "Function_name": "assertEmptyRethrowsSingleError",
+        "Line_number": "49"
+      },
+      {
+        "Function_name": "assertEmptyThrowsMultipleFailureExceptionForManyThrowables",
+        "Line_number": "61"
+      },
+      {
+        "Function_name": "assertEmptyWrapsAssumptionFailuresForManyThrowables",
+        "Line_number": "89"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/test/java/org/junit/tests/junit3compatibility/JUnit38ClassRunnerTest.java": [
+      {
+        "Function_name": "testListener",
+        "Line_number": "62"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/test/java/org/junit/tests/junit3compatibility/InitializationErrorForwardCompatibilityTest.java": [
+      {
+        "Function_name": "CantInitialize",
+        "Line_number": "23"
+      },
+      {
+        "Function_name": "InitializesWithError",
+        "Line_number": "97"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/test/java/org/junit/tests/junit3compatibility/ForwardCompatibilityPrintingTest.java": [
+      {
+        "Function_name": "runTest",
+        "Line_number": "49"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/test/java/org/junit/tests/junit3compatibility/ForwardCompatibilityTest.java": [
+      {
+        "Function_name": "error",
+        "Line_number": "63"
+      },
+      {
+        "Function_name": "succeed",
+        "Line_number": "105"
+      },
+      {
+        "Function_name": "expected",
+        "Line_number": "118"
+      },
+      {
+        "Function_name": "expected",
+        "Line_number": "132"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/test/java/org/junit/tests/junit3compatibility/JUnit4TestAdapterTest.java": [
+      {
+        "Function_name": "pass",
+        "Line_number": "36"
+      },
+      {
+        "Function_name": "testPass",
+        "Line_number": "52"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/test/java/org/junit/tests/description/TestDescriptionMethodNameTest.java": [
+      {
+        "Function_name": "methodNameTest",
+        "Line_number": "45"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/test/java/org/junit/tests/validation/BadlyFormedClassesTest.java": [
+      {
+        "Function_name": "FaultyConstructor",
+        "Line_number": "18"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/test/java/org/junit/internal/ArrayComparisonFailureTest.java": [
+      {
+        "Function_name": "classShouldAccept411Version",
+        "Line_number": "37"
+      },
+      {
+        "Function_name": "classShouldAccept412Version",
+        "Line_number": "42"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/test/java/org/junit/internal/builders/AnnotatedBuilderTest.java": [
+      {
+        "Function_name": "topLevelTestClassWithoutAnnotation_isRunWithDefaultRunner",
+        "Line_number": "18"
+      },
+      {
+        "Function_name": "topLevelTestClassWithAnnotation_isRunWithAnnotatedRunner",
+        "Line_number": "24"
+      },
+      {
+        "Function_name": "memberClassInsideAnnotatedTopLevelClass_isRunWithTopLevelRunner",
+        "Line_number": "33"
+      },
+      {
+        "Function_name": "memberClassDeepInsideAnnotatedTopLevelClass_isRunWithTopLevelRunner",
+        "Line_number": "42"
+      },
+      {
+        "Function_name": "annotatedMemberClassInsideAnnotatedTopLevelClass_isRunWithOwnRunner",
+        "Line_number": "51"
+      },
+      {
+        "Function_name": "memberClassDeepInsideAnnotatedMemberClass_isRunWithParentMemberClassRunner",
+        "Line_number": "60"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/test/java/org/junit/internal/StackTracesTest.java": [
+      {
+        "Function_name": "call",
+        "Line_number": "298"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/test/java/org/junit/internal/runners/statements/ExpectExceptionTest.java": [
+      {
+        "Function_name": "whenExpectingAssumptionViolatedExceptionStatementsPassingShouldFail",
+        "Line_number": "59"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/test/java/org/junit/internal/matchers/ThrowableCauseMatcherTest.java": [
+      {
+        "Function_name": "shouldAllowCauseOfDifferentClassFromRoot",
+        "Line_number": "12"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/test/java/org/junit/internal/matchers/StacktracePrintingMatcherTest.java": [
+      {
+        "Function_name": "succeedsWhenInnerMatcherSucceeds",
+        "Line_number": "18"
+      },
+      {
+        "Function_name": "failsWhenInnerMatcherFails",
+        "Line_number": "23"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/test/java/org/junit/rules/RuleMemberValidatorTest.java": [
+      {
+        "Function_name": "rejectClassRuleIsAnArbitraryObject",
+        "Line_number": "129"
+      },
+      {
+        "Function_name": "rejectClassRuleMethodReturnsAnArbitraryObject",
+        "Line_number": "148"
+      },
+      {
+        "Function_name": "acceptMethodRule",
+        "Line_number": "198"
+      },
+      {
+        "Function_name": "rejectArbitraryObjectWithRuleAnnotation",
+        "Line_number": "215"
+      },
+      {
+        "Function_name": "methodAcceptMethodRuleMethod",
+        "Line_number": "310"
+      },
+      {
+        "Function_name": "methodRejectArbitraryObjectWithRuleAnnotation",
+        "Line_number": "329"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/test/java/org/junit/rules/TempFolderRuleTest.java": [
+      {
+        "Function_name": "testUsingTempFolderStringReflection",
+        "Line_number": "61"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/test/java/org/junit/rules/EventCollector.java": [
+      {
+        "Function_name": "testRunStarted",
+        "Line_number": "147"
+      },
+      {
+        "Function_name": "testRunFinished",
+        "Line_number": "152"
+      },
+      {
+        "Function_name": "testStarted",
+        "Line_number": "157"
+      },
+      {
+        "Function_name": "testFinished",
+        "Line_number": "162"
+      },
+      {
+        "Function_name": "testFailure",
+        "Line_number": "167"
+      },
+      {
+        "Function_name": "testIgnored",
+        "Line_number": "177"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/test/java/org/junit/rules/RuleChainTest.java": [
+      {
+        "Function_name": "executeRulesInCorrectOrder",
+        "Line_number": "57"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/test/java/org/junit/rules/ErrorCollectorTest.java": [
+      {
+        "Function_name": "call",
+        "Line_number": "198"
+      },
+      {
+        "Function_name": "call",
+        "Line_number": "212"
+      },
+      {
+        "Function_name": "call",
+        "Line_number": "217"
+      },
+      {
+        "Function_name": "call",
+        "Line_number": "231"
+      },
+      {
+        "Function_name": "call",
+        "Line_number": "245"
+      },
+      {
+        "Function_name": "call",
+        "Line_number": "260"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/test/java/org/junit/runners/parameterized/BlockJUnit4ClassRunnerWithParametersTest.java": [
+      {
+        "Function_name": "hasAllAnnotationsExceptRunWith",
+        "Line_number": "38"
+      },
+      {
+        "Function_name": "providesHelpfulMessageIfParameterFieldCannotBeSet",
+        "Line_number": "66"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/test/java/org/junit/runners/CustomBlockJUnit4ClassRunnerTest.java": [
+      {
+        "Function_name": "exceptionsFromMethodBlockMustNotResultInUnrootedTests",
+        "Line_number": "26"
+      },
+      {
+        "Function_name": "testStarted",
+        "Line_number": "75"
+      },
+      {
+        "Function_name": "testFailure",
+        "Line_number": "80"
+      },
+      {
+        "Function_name": "testFinished",
+        "Line_number": "85"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/test/java/org/junit/runners/model/FrameworkMethodTest.java": [
+      {
+        "Function_name": "hasToStringWhichPrintsMethodName",
+        "Line_number": "29"
+      },
+      {
+        "Function_name": "presentAnnotationIsAvailable",
+        "Line_number": "36"
+      },
+      {
+        "Function_name": "missingAnnotationIsNotAvailable",
+        "Line_number": "44"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/test/java/org/junit/runners/model/FrameworkFieldTest.java": [
+      {
+        "Function_name": "hasToStringWhichPrintsFieldName",
+        "Line_number": "29"
+      },
+      {
+        "Function_name": "presentAnnotationIsAvailable",
+        "Line_number": "36"
+      },
+      {
+        "Function_name": "missingAnnotationIsNotAvailable",
+        "Line_number": "44"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/main/java/junit/textui/TestRunner.java": [
+      {
+        "Function_name": "start",
+        "Line_number": "152"
+      },
+      {
+        "Function_name": "runSingleMethod",
+        "Line_number": "189"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/main/java/junit/framework/TestCase.java": [
+      {
+        "Function_name": "setUp",
+        "Line_number": "474"
+      },
+      {
+        "Function_name": "tearDown",
+        "Line_number": "481"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/main/java/junit/framework/JUnit4TestAdapterCache.java": [
+      {
+        "Function_name": "testFailure",
+        "Line_number": "48"
+      },
+      {
+        "Function_name": "testFinished",
+        "Line_number": "53"
+      },
+      {
+        "Function_name": "testStarted",
+        "Line_number": "58"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/main/java/junit/extensions/TestSetup.java": [
+      {
+        "Function_name": "protect",
+        "Line_number": "21"
+      },
+      {
+        "Function_name": "setUp",
+        "Line_number": "33"
+      },
+      {
+        "Function_name": "tearDown",
+        "Line_number": "40"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/main/java/org/junit/experimental/theories/Theories.java": [
+      {
+        "Function_name": "createTest",
+        "Line_number": "256"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/main/java/org/junit/experimental/theories/internal/Assignments.java": [
+      {
+        "Function_name": "getSupplier",
+        "Line_number": "99"
+      },
+      {
+        "Function_name": "buildParameterSupplierFromClass",
+        "Line_number": "111"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/main/java/org/junit/experimental/max/MaxHistory.java": [
+      {
+        "Function_name": "testStarted",
+        "Line_number": "115"
+      },
+      {
+        "Function_name": "testFinished",
+        "Line_number": "121"
+      },
+      {
+        "Function_name": "testFailure",
+        "Line_number": "128"
+      },
+      {
+        "Function_name": "testRunFinished",
+        "Line_number": "133"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/main/java/org/junit/runner/notification/SynchronizedRunListener.java": [
+      {
+        "Function_name": "testRunStarted",
+        "Line_number": "33"
+      },
+      {
+        "Function_name": "testRunFinished",
+        "Line_number": "40"
+      },
+      {
+        "Function_name": "testSuiteStarted",
+        "Line_number": "56"
+      },
+      {
+        "Function_name": "testSuiteFinished",
+        "Line_number": "70"
+      },
+      {
+        "Function_name": "testStarted",
+        "Line_number": "77"
+      },
+      {
+        "Function_name": "testFinished",
+        "Line_number": "84"
+      },
+      {
+        "Function_name": "testFailure",
+        "Line_number": "91"
+      },
+      {
+        "Function_name": "testIgnored",
+        "Line_number": "105"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/main/java/org/junit/runner/notification/RunListener.java": [
+      {
+        "Function_name": "testRunStarted",
+        "Line_number": "60"
+      },
+      {
+        "Function_name": "testRunFinished",
+        "Line_number": "69"
+      },
+      {
+        "Function_name": "testSuiteStarted",
+        "Line_number": "86"
+      },
+      {
+        "Function_name": "testSuiteFinished",
+        "Line_number": "97"
+      },
+      {
+        "Function_name": "testStarted",
+        "Line_number": "106"
+      },
+      {
+        "Function_name": "testFinished",
+        "Line_number": "114"
+      },
+      {
+        "Function_name": "testFailure",
+        "Line_number": "131"
+      },
+      {
+        "Function_name": "testIgnored",
+        "Line_number": "150"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/main/java/org/junit/runner/notification/RunNotifier.java": [
+      {
+        "Function_name": "notifyListener",
+        "Line_number": "81"
+      },
+      {
+        "Function_name": "notifyListener",
+        "Line_number": "90"
+      },
+      {
+        "Function_name": "notifyListener",
+        "Line_number": "102"
+      },
+      {
+        "Function_name": "notifyListener",
+        "Line_number": "120"
+      },
+      {
+        "Function_name": "notifyListener",
+        "Line_number": "137"
+      },
+      {
+        "Function_name": "notifyListener",
+        "Line_number": "155"
+      },
+      {
+        "Function_name": "notifyListener",
+        "Line_number": "175"
+      },
+      {
+        "Function_name": "notifyListener",
+        "Line_number": "194"
+      },
+      {
+        "Function_name": "notifyListener",
+        "Line_number": "208"
+      },
+      {
+        "Function_name": "notifyListener",
+        "Line_number": "224"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/main/java/org/junit/runner/Result.java": [
+      {
+        "Function_name": "testRunStarted",
+        "Line_number": "130"
+      },
+      {
+        "Function_name": "testRunFinished",
+        "Line_number": "135"
+      },
+      {
+        "Function_name": "testFinished",
+        "Line_number": "141"
+      },
+      {
+        "Function_name": "testFailure",
+        "Line_number": "146"
+      },
+      {
+        "Function_name": "testIgnored",
+        "Line_number": "151"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/main/java/org/junit/internal/builders/AnnotatedBuilder.java": [
+      {
+        "Function_name": "runnerForClass",
+        "Line_number": "81"
+      },
+      {
+        "Function_name": "buildRunner",
+        "Line_number": "102"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/main/java/org/junit/internal/Throwables.java": [
+      {
+        "Function_name": "rethrowAsException",
+        "Line_number": "45"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/main/java/org/junit/internal/runners/MethodRoadie.java": [
+      {
+        "Function_name": "call",
+        "Line_number": "63"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/main/java/org/junit/internal/runners/JUnit4ClassRunner.java": [
+      {
+        "Function_name": "createTest",
+        "Line_number": "81"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/main/java/org/junit/internal/runners/statements/FailOnTimeout.java": [
+      {
+        "Function_name": "call",
+        "Line_number": "296"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/main/java/org/junit/internal/runners/statements/ExpectException.java": [
+      {
+        "Function_name": "evaluate",
+        "Line_number": "16"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/main/java/org/junit/rules/ErrorCollector.java": [
+      {
+        "Function_name": "call",
+        "Line_number": "76"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/main/java/org/junit/rules/Timeout.java": [
+      {
+        "Function_name": "createFailOnTimeoutStatement",
+        "Line_number": "146"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/main/java/org/junit/runners/parameterized/BlockJUnit4ClassRunnerWithParameters.java": [
+      {
+        "Function_name": "createTest",
+        "Line_number": "42"
+      },
+      {
+        "Function_name": "createTestUsingConstructorInjection",
+        "Line_number": "55"
+      },
+      {
+        "Function_name": "createTestUsingFieldInjection",
+        "Line_number": "59"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/main/java/org/junit/runners/Parameterized.java": [
+      {
+        "Function_name": "Parameterized",
+        "Line_number": "306"
+      },
+      {
+        "Function_name": "createRunners",
+        "Line_number": "387"
+      },
+      {
+        "Function_name": "getParametersMethod",
+        "Line_number": "442"
+      },
+      {
+        "Function_name": "createRunnersForParameters",
+        "Line_number": "457"
+      },
+      {
+        "Function_name": "createTestsForParameters",
+        "Line_number": "474"
+      },
+      {
+        "Function_name": "parametersMethodReturnedWrongType",
+        "Line_number": "485"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/main/java/org/junit/runners/model/MultipleFailureException.java": [
+      {
+        "Function_name": "assertEmpty",
+        "Line_number": "87"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/junit4/src/main/java/org/junit/runners/BlockJUnit4ClassRunner.java": [
+      {
+        "Function_name": "createTest",
+        "Line_number": "249"
+      },
+      {
+        "Function_name": "createTest",
+        "Line_number": "259"
+      }
+    ],
+    "Number_of_occurrences_in_the_project": 313
+  }
+}

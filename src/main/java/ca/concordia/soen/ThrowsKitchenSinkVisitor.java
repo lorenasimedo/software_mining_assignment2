@@ -2,25 +2,20 @@ package ca.concordia.soen;
 
 import org.eclipse.jdt.core.dom.*;
 
+import java.util.HashSet;
+import java.util.Set;
 
-import java.util.ArrayList;
-import java.util.List;
-
-public class ThrowsKitchenSinkVisitor extends ASTVisitor {
+public class ThrowsKitchenSinkVisitor extends AntiPatternVisitor {
     static int exceptionsThreshold = 3;
 
-    private final CompilationUnit compilationUnit;
-    int AntiPatternOccurrencesCount = 0;
-    List<AntiPatternOccurrence> ThrowsKitchenSinkOcurrencesList = new ArrayList<>();
-
     public ThrowsKitchenSinkVisitor(CompilationUnit compilationUnit) {
-        this.compilationUnit = compilationUnit;
+        super(compilationUnit);
     }
 
     @Override
     public boolean visit(MethodDeclaration declaration) {
 
-        List thrownExceptions = declaration.thrownExceptionTypes();
+        var thrownExceptions = declaration.thrownExceptionTypes();
 
         // Handling throws in method declaration
         if (thrownExceptions.size() >= exceptionsThreshold) {
@@ -29,34 +24,51 @@ public class ThrowsKitchenSinkVisitor extends ASTVisitor {
         }
 
         // Handling throws in the code
+        Set<String> codeExceptionsSet = new HashSet<>();
         Block body = declaration.getBody();
-        List<Type> exceptionTypesList = new ArrayList<>();
-        if (body != null) {
-            for (Object statement : body.statements()) {
-                if (statement instanceof ThrowStatement throwStatement) {
-                    Expression expression = throwStatement.getExpression();
-                    if (expression instanceof ClassInstanceCreation exception) {
-                        Type exceptionType = exception.getType();
-                        if (!exceptionTypesList.contains(exceptionType)) {
-                            exceptionTypesList.add(exceptionType);
-                        }
-                    }
-                }
-            }
+        if (body == null){
+            return true; // It is not an occurrence
         }
-        if (exceptionTypesList.size() >= exceptionsThreshold){
+        body.accept(new ASTVisitor() {
+
+            public boolean visit(ThrowStatement node) {
+                Expression expression = node.getExpression();
+                if (expression instanceof ClassInstanceCreation exception) {
+                    Type exceptionType = exception.getType();
+                    String exceptionTypeName = exceptionType.toString();
+                    codeExceptionsSet.add(exceptionTypeName);
+                }
+
+                return super.visit(node);
+            }
+
+        });
+
+        if (codeExceptionsSet.size() >= exceptionsThreshold){
             addNewAntiPatternOccurrence(declaration);
             return true;
         }
+
+        // Merging both to check if together they exceed the threshold
+        Set<String> mergedExceptions = new HashSet<>(thrownExceptions);
+        mergedExceptions.addAll(codeExceptionsSet);
+        if (mergedExceptions.size() >= exceptionsThreshold){
+            addNewAntiPatternOccurrence(declaration);
+            return true;
+        }
+
+        // It is not an occurrence
         return true;
     }
 
 
+
+
     public void addNewAntiPatternOccurrence(MethodDeclaration declaration){
-        AntiPatternOccurrencesCount += 1;
+        antiPatternOccurrencesCount += 1;
         int startLine = compilationUnit.getLineNumber(declaration.getStartPosition());
         String functionName = declaration.getName().toString();
         AntiPatternOccurrence ThrowsKitchenSinkOccurrence = new AntiPatternOccurrence(functionName, Integer.toString(startLine));
-        ThrowsKitchenSinkOcurrencesList.add(ThrowsKitchenSinkOccurrence);
+        antiPatternOcurrencesList.add(ThrowsKitchenSinkOccurrence);
     }
 }
