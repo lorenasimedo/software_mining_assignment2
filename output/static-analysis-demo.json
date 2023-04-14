@@ -14,11 +14,15 @@
         "Line_number": "37"
       },
       {
-        "Function_name": "test12",
-        "Line_number": "65"
+        "Function_name": "patternTest",
+        "Line_number": "55"
+      },
+      {
+        "Function_name": "patternTest",
+        "Line_number": "58"
       }
     ],
-    "Number_of_occurrences_in_the_project": 4
+    "Number_of_occurrences_in_the_project": 5
   },
   "ThrowsKitchenSink": {
     "Number_of_occurrences_in_the_project": 0
