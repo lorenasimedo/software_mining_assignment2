@@ -47,7 +47,6 @@ public class ThrowsGenericVisitor extends AntiPatternVisitor {
             }
         } catch (NullPointerException e) {
             e.printStackTrace();
-<<<<<<< HEAD
         }
     }
 
@@ -68,8 +67,6 @@ public class ThrowsGenericVisitor extends AntiPatternVisitor {
             for (Statement blockStatement : blockStatements) {
                 processStatement(blockStatement, exceptionName, node);
             }
-=======
->>>>>>> main
         }
     }
     private void antiPatternDetect(MethodDeclaration node, int startPosition) {
