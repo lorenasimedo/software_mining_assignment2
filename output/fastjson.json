@@ -1,5 +1,11 @@
 {
   "ThrowsKitchenSink": {
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/fastjson/src/main/java/com/alibaba/fastjson/parser/JSONScanner.java": [
+      {
+        "Function_name": "seekArrayToItem",
+        "Line_number": "2492"
+      }
+    ],
     "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/fastjson/src/main/java/com/alibaba/fastjson/parser/deserializer/JavaBeanDeserializer.java": [
       {
         "Function_name": "createFactoryInstance",
@@ -10,7 +16,19 @@
         "Line_number": "1373"
       }
     ],
-    "Number_of_occurrences_in_the_project": 2
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/fastjson/src/main/java/com/alibaba/fastjson/JSONObject.java": [
+      {
+        "Function_name": "invoke",
+        "Line_number": "431"
+      }
+    ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/fastjson/src/main/java/com/alibaba/fastjson/JSONPath.java": [
+      {
+        "Function_name": "arrayAdd",
+        "Line_number": "382"
+      }
+    ],
+    "Number_of_occurrences_in_the_project": 5
   },
   "DestructiveWrapping": {
     "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/fastjson/src/test/java/com/alibaba/json/test/benchmark/BenchmarkExecutor.java": [

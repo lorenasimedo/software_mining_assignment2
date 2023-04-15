@@ -1,6 +1,12 @@
 {
   "ThrowsKitchenSink": {
-    "Number_of_occurrences_in_the_project": 0
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/jsoup/src/main/java/org/jsoup/helper/HttpConnection.java": [
+      {
+        "Function_name": "execute",
+        "Line_number": "854"
+      }
+    ],
+    "Number_of_occurrences_in_the_project": 1
   },
   "DestructiveWrapping": {
     "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/jsoup/src/test/java/org/jsoup/integration/ParseTest.java": [

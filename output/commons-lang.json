@@ -94,6 +94,12 @@
         "Line_number": "148"
       }
     ],
+    "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-lang/src/main/java/org/apache/commons/lang3/concurrent/UncheckedFutureImpl.java": [
+      {
+        "Function_name": "get",
+        "Line_number": "51"
+      }
+    ],
     "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-lang/src/main/java/org/apache/commons/lang3/concurrent/AbstractFutureProxy.java": [
       {
         "Function_name": "get",
@@ -106,7 +112,7 @@
         "Line_number": "314"
       }
     ],
-    "Number_of_occurrences_in_the_project": 23
+    "Number_of_occurrences_in_the_project": 24
   },
   "DestructiveWrapping": {
     "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-lang/src/test/java/org/apache/commons/lang3/function/MethodInvokersFailableFunctionTest.java": [
@@ -260,7 +266,7 @@
     "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-lang/src/main/java/org/apache/commons/lang3/builder/ReflectionDiffBuilder.java": [
       {
         "Function_name": "appendFields",
-        "Line_number": "118"
+        "Line_number": "116"
       }
     ],
     "/Users/lorenapacheco/Concordia/Masters/open_source_repos_being_studied/commons-lang/src/main/java/org/apache/commons/lang3/builder/EqualsBuilder.java": [
