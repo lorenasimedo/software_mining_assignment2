@@ -17,8 +17,14 @@ public class ThrowsKitchenSinkVisitor extends AntiPatternVisitor {
 
         var thrownExceptions = declaration.thrownExceptionTypes();
 
+        // Convert thrownExceptions to a set of Strings
+        Set<String> thrownExceptionsSet = new HashSet<>();
+        for (Object thrownException : thrownExceptions) {
+            thrownExceptionsSet.add(thrownException.toString());
+        }
+
         // Handling throws in method declaration
-        if (thrownExceptions.size() >= exceptionsThreshold) {
+        if (thrownExceptionsSet.size() >= exceptionsThreshold) {
             addNewAntiPatternOccurrence(declaration);
             return true;
         }
@@ -50,8 +56,9 @@ public class ThrowsKitchenSinkVisitor extends AntiPatternVisitor {
         }
 
         // Merging both to check if together they exceed the threshold
-        Set<String> mergedExceptions = new HashSet<>(thrownExceptions);
+        Set<String> mergedExceptions = new HashSet<>(thrownExceptionsSet);
         mergedExceptions.addAll(codeExceptionsSet);
+
         if (mergedExceptions.size() >= exceptionsThreshold){
             addNewAntiPatternOccurrence(declaration);
             return true;
