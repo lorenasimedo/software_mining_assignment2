@@ -43,15 +43,30 @@ public class ThrowsGenericVisitor extends AntiPatternVisitor {
     public void processCatchStatements(List<Statement> catchStatements, SimpleName exceptionName, MethodDeclaration node) {
         try {
             for (Statement catchStatement : catchStatements) {
-                if (catchStatement instanceof ThrowStatement) {
-                    Expression exception = ((ThrowStatement) catchStatement).getExpression();
-                    if (exception instanceof SimpleName && ((SimpleName) exception).getIdentifier().equals(exceptionName.getIdentifier())) {
-                        antiPatternDetect(node, catchStatement.getStartPosition());
-                    }
-                }
+                processStatement(catchStatement, exceptionName, node);
             }
         } catch (NullPointerException e) {
             e.printStackTrace();
+        }
+    }
+
+    private void processStatement(Statement statement, SimpleName exceptionName, MethodDeclaration node) {
+        if (statement instanceof ThrowStatement) {
+            Expression exception = ((ThrowStatement) statement).getExpression();
+            if (exception instanceof SimpleName && ((SimpleName) exception).getIdentifier().equals(exceptionName.getIdentifier())) {
+                antiPatternDetect(node, statement.getStartPosition());
+            }
+        } else if (statement instanceof IfStatement) {
+            processStatement(((IfStatement) statement).getThenStatement(), exceptionName, node);
+            Statement elseStatement = ((IfStatement) statement).getElseStatement();
+            if (elseStatement != null) {
+                processStatement(elseStatement, exceptionName, node);
+            }
+        } else if (statement instanceof Block) {
+            List<Statement> blockStatements = ((Block) statement).statements();
+            for (Statement blockStatement : blockStatements) {
+                processStatement(blockStatement, exceptionName, node);
+            }
         }
     }
     private void antiPatternDetect(MethodDeclaration node, int startPosition) {

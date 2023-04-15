@@ -30,7 +30,7 @@ public class Application {
         JsonObject ThrowsGenericJson = AntiPatternFinder.getAntiPatternOccurrences("ThrowsGeneric", allFiles);
         AntiPatternsJson.add("ThrowsGeneric", ThrowsGenericJson);
 
-        
+
         FileUtil.writeJsonFile(AntiPatternsJson, output_folder,  projectName);
     }
 }
